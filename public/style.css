@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  --darkPurple: rgb(66, 3, 44);
+  --orange: rgb(211, 107, 0);
+  --page: rgb(230, 210, 170);
+  --lightPage: rgb(241, 239, 220);
+}
+body {
+  font: Margarine;
+  color: var(--darkPurple);
+  background-color: var(--page);
+}
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
