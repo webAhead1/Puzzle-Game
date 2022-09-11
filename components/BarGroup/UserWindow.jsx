@@ -6,6 +6,7 @@ export default function UserWindow(props) {
   return (
     <div>
       <div>Enter username</div>
+      <div>Moamen</div>
       <input
         type="text"
         name="username"
