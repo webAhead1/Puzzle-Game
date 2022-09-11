@@ -1,4 +1,5 @@
 import React from "react";
+import SettingsWindow from "./SettingsWindow";
 
 export default function SettingsInBarGroup(props) {
   const settingsIcon = props.settingsIcon;

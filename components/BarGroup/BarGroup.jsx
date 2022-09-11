@@ -17,14 +17,14 @@ export default function BarGroup(props) {
         {helpIcon && <h3>PUZZLE ME</h3>}
         <img src="./pic/logo-icon.png" />
       </div>
-      <div id="userClick">
+      <div className="userClick">
         <UserInBarGroup userIcon={userIcon} setUserIcon={setUserIcon} />
       </div>
       <label className="BarGroup1-2">
-        <div id="helpClick">
+        <div className="helpClick">
           <HelpInBarGroup helpIcon={helpIcon} setHelpIcon={setHelpIcon} />
         </div>
-        <div id="settingsClick">
+        <div className="settingsClick">
           <SettingsInBarGroup
             settingsIcon={settingsIcon}
             setSettingsIcon={setSettingsIcon}

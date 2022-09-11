@@ -1,11 +1,5 @@
 import React from "react";
 
-const levels = [
-  "easy",
-  "middle",
-  "hard"
-];
-
 export default function ChooseLevelGroup(props) {
   const easy = props.easy;
   const setEasy = props.setEasy;
@@ -17,37 +11,40 @@ export default function ChooseLevelGroup(props) {
   const setHard = props.setHard;
   const hardClick = () => setHard(!hard);
   return (
-      <label>
-        <div className="ChooseLevel">Choose Level</div>
-        <label className="levels">
-          <div className="easyLevel"
-            onClick={() => {
-              easyClick();
-            }}
-          >
-            easy
-          </div>
-        </label>
-  
-        <label className="levels">
-          <div className="middleLevel"
-            onClick={() => {
-              middleClick();
-            }}
-          >
-            middle
-          </div>
-        </label>
-  
-        <label className="levels">
-          <div className="hardLevel"
-            onClick={() => {
-              hardClick();
-            }}
-          >
-            <div>hard</div>
-          </div>
-        </label>
+    <label>
+      <div className="ChooseLevel">Choose Level</div>
+      <label className="levels">
+        <div
+          className="easyLevel"
+          onClick={() => {
+            easyClick();
+          }}
+        >
+          easy
+        </div>
       </label>
-    );
+
+      <label className="levels">
+        <div
+          className="middleLevel"
+          onClick={() => {
+            middleClick();
+          }}
+        >
+          middle
+        </div>
+      </label>
+
+      <label className="levels">
+        <div
+          className="hardLevel"
+          onClick={() => {
+            hardClick();
+          }}
+        >
+          <div>hard</div>
+        </div>
+      </label>
+    </label>
+  );
 }
