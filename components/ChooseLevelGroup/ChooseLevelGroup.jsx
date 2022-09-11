@@ -12,28 +12,42 @@ export default function ChooseLevelGroup(props) {
   const easyClick = () => setEasy(!easy);
   const middle = props.setMiddle;
   const setMiddle = props.setMiddle;
-  const middleClick = () => setMidddle(!middle);
+  const middleClick = () => setMiddle(!middle);
   const hard = props.hard;
   const setHard = props.setHard;
   const hardClick = () => setHard(!hard);
   return (
-    <fieldset>
-      <legend>Choose level</legend>
-      {levels.map(lev => (
+      <label>
+        <div className="ChooseLevel">Choose Level</div>
         <label className="levels">
-         <div> onClick={() => {easyClick();}} </div>
+          <div className="easyLevel"
+            onClick={() => {
+              easyClick();
+            }}
+          >
+            easy
+          </div>
         </label>
-      ))}
-     {levels.map(lev => (
+  
         <label className="levels">
-        <div> onClick={() => {middleClick();}} </div>
+          <div className="middleLevel"
+            onClick={() => {
+              middleClick();
+            }}
+          >
+            middle
+          </div>
         </label>
-      ))}
-     {levels.map(lev => (
+  
         <label className="levels">
-        <div> onClick={() => {hardClick();}} </div>
+          <div className="hardLevel"
+            onClick={() => {
+              hardClick();
+            }}
+          >
+            <div>hard</div>
+          </div>
         </label>
-      ))}
-    </fieldset>
-  );
+      </label>
+    );
 }

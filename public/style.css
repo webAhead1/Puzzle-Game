@@ -31,3 +31,44 @@ main {
 .idn {
   background-color: var(--page);
 }
+
+.easyLevel{
+  position: absolute;
+  height: 55.13px;
+  width: 309.09px;
+  left: 213.76px;
+  top: 487.26px;
+} 
+
+.middleLevel{
+  position: absolute;
+  height: 55.13px;
+  width: 309.09px;
+  left: 559.54px;
+  top: 487.26px;
+}
+
+.hardLevel{
+  position: absolute;
+  height: 55.13px;
+  width: 309.09px;
+  left: 918.15px;
+  top: 487.26px;
+}
+
+.ChoosePicture{
+  position: absolute;
+  height: 28.85px;
+  width: 210.84px;
+  left: 608.49px;
+  top: 170.66px;
+}
+
+.ChooseLevel{
+  position: absolute;
+  height: 26.93px;
+  width: 145.96px;
+  left: 651.07px;
+  top: 429.34px;
+}
+
