@@ -23,16 +23,16 @@ export default function ChoosePicGroup(props) {
     <label>
       <div className="ChoosePicture">Choose picture</div>
       <label className="pictures">
-        <img
+        <img className="pic1"
           src="/pic/pic1.jpg"
           onClick={() => {
             pic1Click();
           }}
         />
       </label>
-
+      
       <label className="pictures">
-        <img
+        <img className="pic2"
           src="/pic/pic2.jpg"
           onClick={() => {
             pic2Click();
@@ -41,7 +41,7 @@ export default function ChoosePicGroup(props) {
       </label>
 
       <label className="pictures">
-        <img
+        <img className="pic3"
           src="/pic/pic3.jpg"
           onClick={() => {
             pic3Click();

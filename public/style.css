@@ -32,6 +32,14 @@ main {
   background-color: var(--page);
 }
 
+.ChooseLevel{
+  position: absolute;
+  height: 26.93px;
+  width: 145.96px;
+  left: 651.07px;
+  top: 429.34px;
+}
+
 .easyLevel{
   position: absolute;
   height: 55.13px;
@@ -64,11 +72,27 @@ main {
   top: 170.66px;
 }
 
-.ChooseLevel{
+
+.pic1{
   position: absolute;
-  height: 26.93px;
-  width: 145.96px;
-  left: 651.07px;
-  top: 429.34px;
+  height: 146.6px;
+  width: 281.12px;
+  left: 227.19px;
+  top: 229.73px;
 }
 
+.pic2{
+  position: absolute;
+  height: 146.6px;
+  width: 281.12px;
+  left: 572.78px;
+  top: 229.73px;
+}
+
+.pic3{
+  position: absolute;
+  height: 146.6px;
+  width: 281.12px;
+  left: 932.69px;
+  top: 229.73px;
+}
