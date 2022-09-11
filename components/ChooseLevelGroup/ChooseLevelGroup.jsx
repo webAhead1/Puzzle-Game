@@ -12,9 +12,10 @@ export default function ChooseLevelGroup(props) {
   const hardClick = () => setHard(!hard);
   return (
     <label>
-      <div>Choose level</div>
+      <div className="ChooseLevel">Choose Level</div>
       <label className="levels">
         <div
+          className="easyLevel"
           onClick={() => {
             easyClick();
           }}
@@ -25,6 +26,7 @@ export default function ChooseLevelGroup(props) {
 
       <label className="levels">
         <div
+          className="middleLevel"
           onClick={() => {
             middleClick();
           }}
@@ -35,11 +37,12 @@ export default function ChooseLevelGroup(props) {
 
       <label className="levels">
         <div
+          className="hardLevel"
           onClick={() => {
             hardClick();
           }}
         >
-          hard
+          <div>hard</div>
         </div>
       </label>
     </label>

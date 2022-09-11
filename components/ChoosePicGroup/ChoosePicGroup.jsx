@@ -4,9 +4,9 @@ var imgsArray = new Array();
 imgsArray[0] = new Image();
 imgsArray[0].src = "./pic/pic1.jpg";
 imgsArray[1] = new Image();
-imgsArray[1].src = "./pic/pic2.jpg";
+imgsArray[1].src = "./public/pic/pic2.jpg";
 imgsArray[2] = new Image();
-imgsArray[2].src = "./pic/pic3.jpg";
+imgsArray[2].src = "./public/pic/pic3.jpg";
 
 export default function ChoosePicGroup(props) {
   const pic1 = props.pic1;
@@ -20,10 +20,9 @@ export default function ChoosePicGroup(props) {
   const pic3Click = () => setPic3(!pic3);
   return (
     <label>
-      <div>Choose picture</div>
-      <label>
+      <div className="ChoosePicture">Choose picture</div>
+      <label className="pictures">
         <img
-          className="pic1"
           src="/pic/pic1.jpg"
           onClick={() => {
             pic1Click();
@@ -31,9 +30,8 @@ export default function ChoosePicGroup(props) {
         />
       </label>
 
-      <label>
+      <label className="pictures">
         <img
-          className="pic2"
           src="/pic/pic2.jpg"
           onClick={() => {
             pic2Click();
@@ -41,9 +39,8 @@ export default function ChoosePicGroup(props) {
         />
       </label>
 
-      <label>
+      <label className="pictures">
         <img
-          className="pic3"
           src="/pic/pic3.jpg"
           onClick={() => {
             pic3Click();
