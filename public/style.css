@@ -31,3 +31,38 @@ main {
 .idn {
   background-color: var(--page);
 }
+.logo {
+  position: absolute;
+  height: 86.72px;
+  width: 171px;
+  left: 639px;
+  top: 40px;
+}
+.userClick {
+  position: absolute;
+  height: 52.08px;
+  width: 54.09px;
+  left: 125px;
+  top: 96px;
+}
+.BarGroup1-2 {
+  position: absolute;
+  height: 45.8px;
+  width: 104.45px;
+  left: 1209.55px;
+  top: 102.29px;
+}
+.helpClick {
+  position: absolute;
+  height: 44.19px;
+  width: 52.22px;
+  left: 1209.55px;
+  top: 102.29px;
+}
+.settingsClick {
+  position: absolute;
+  height: 45.8px;
+  width: 52.22px;
+  left: 1261.78px;
+  top: 102.29px;
+}
