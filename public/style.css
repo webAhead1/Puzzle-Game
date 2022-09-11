@@ -20,14 +20,6 @@ main {
   flex-wrap: wrap;
 }
 
-.BarGroup1 {
-  position: absolute;
-  height: 108.83px;
-  width: 1189px;
-  left: 125px;
-  top: 40px;
-  background-color: var(--page);
-}
 .idn {
   background-color: var(--page);
 }
@@ -45,13 +37,7 @@ main {
   left: 125px;
   top: 96px;
 }
-.BarGroup1-2 {
-  position: absolute;
-  height: 45.8px;
-  width: 104.45px;
-  left: 1209.55px;
-  top: 102.29px;
-}
+
 .helpClick {
   position: absolute;
   height: 44.19px;
@@ -63,8 +49,16 @@ main {
   position: absolute;
   height: 45.8px;
   width: 52.22px;
-  left: 1261.78px;
+  left: 1300.78px;
   top: 102.29px;
+}
+
+.ChooseLevel{
+  position: absolute;
+  height: 26.93px;
+  width: 145.96px;
+  left: 651.07px;
+  top: 429.34px;
 }
 
 .easyLevel {
@@ -99,10 +93,28 @@ main {
   top: 170.66px;
 }
 
-.ChooseLevel {
+.pic1{
   position: absolute;
-  height: 26.93px;
-  width: 145.96px;
-  left: 651.07px;
-  top: 429.34px;
+  height: 146.6px;
+  width: 281.12px;
+  left: 213.76px;
+  top: 229.73px;
 }
+
+.pic2{
+  position: absolute;
+  height: 146.6px;
+  width: 281.12px;
+  left: 572.78px;
+  top: 229.73px;
+}
+
+.pic3{
+  position: absolute;
+  height: 146.6px;
+  width: 281.12px;
+  left: 932.69px;
+  top: 229.73px;
+}
+
+
