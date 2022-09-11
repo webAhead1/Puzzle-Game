@@ -13,6 +13,7 @@ export default function HelpInBarGroup(props) {
           helpClick();
         }}
       />
+      {helpIcon && <HelpWindow props={props} />}
     </label>
   );
 }

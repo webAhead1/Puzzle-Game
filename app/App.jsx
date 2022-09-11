@@ -13,6 +13,7 @@ function App() {
   const [easy, setEasy] = React.useState(false);
   const [middle, setMiddle] = React.useState(false);
   const [hard, setHard] = React.useState(false);
+  const [username, setUsername] = React.useState(0);
   return (
     <main>
       <section className="BarGroup">
@@ -23,6 +24,8 @@ function App() {
           setHelpIcon={setHelpIcon}
           settingsIcon={settingsIcon}
           setSettingsIcon={setSettingsIcon}
+          username={username}
+          setUsername={setUsername}
         />
       </section>
 
