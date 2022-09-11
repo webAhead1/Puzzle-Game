@@ -4,7 +4,12 @@ export default function SettingsWindow(props) {
   return (
     <div className="settingsWindow">
       <div>Settings</div>
-      <div></div>
+      <div>
+        Sound : on <br />
+        Music : off <br />
+        About us <br />
+        Contact <br />
+      </div>
     </div>
   );
 }

@@ -14,6 +14,7 @@ export default function SettingsInBarGroup(props) {
           settingsClick();
         }}
       />
+      {settingsIcon && <SettingsWindow props={props} />}
     </label>
   );
 }

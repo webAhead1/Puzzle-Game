@@ -13,6 +13,7 @@ export default function UserInBarGroup(props) {
           userClick();
         }}
       />
+      {userIcon && <UserWindow props={props} />}
     </label>
   );
 }

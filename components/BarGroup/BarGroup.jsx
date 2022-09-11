@@ -16,7 +16,7 @@ export default function BarGroup(props) {
   return (
     <label htmlFor="BarGroup1">
       <div className="logo">
-        {helpIcon && <h3>PUZZLE ME</h3>}
+        <h3>PUZZLE ME</h3>
         <img src="./pic/logo-icon.png" />
       </div>
       <div className="userClick">
@@ -26,6 +26,7 @@ export default function BarGroup(props) {
           username={username}
           setUsername={setUsername}
         />
+        {username && <div>Hello {username}</div>}
       </div>
       <label>
         <div className="helpClick">
