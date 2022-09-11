@@ -19,3 +19,15 @@ main {
   display: flex;
   flex-wrap: wrap;
 }
+
+.BarGroup1 {
+  position: absolute;
+  height: 108.83px;
+  width: 1189px;
+  left: 125px;
+  top: 40px;
+  background-color: var(--page);
+}
+.idn {
+  background-color: var(--page);
+}

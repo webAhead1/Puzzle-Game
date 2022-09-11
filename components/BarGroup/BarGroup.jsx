@@ -12,20 +12,25 @@ export default function BarGroup(props) {
   const setSettingsIcon = props.setSettingsIcon;
 
   return (
-    <label htmlFor="idn">
-      <form id="logo"></form>
-      <form id="userClick">
+    <label htmlFor="BarGroup1" className="BarGroup1">
+      <div className="logo">
+        {helpIcon && <h3>PUZZLE ME</h3>}
+        <img src="./pic/logo-icon.png" />
+      </div>
+      <div id="userClick">
         <UserInBarGroup userIcon={userIcon} setUserIcon={setUserIcon} />
-      </form>
-      <form id="helpClick">
-        <HelpInBarGroup helpIcon={helpIcon} setHelpIcon={setHelpIcon} />
-      </form>
-      <form id="settingsClick">
-        <SettingsInBarGroup
-          settingsIcon={settingsIcon}
-          setSettingsIcon={setSettingsIcon}
-        />
-      </form>
+      </div>
+      <label className="BarGroup1-2">
+        <div id="helpClick">
+          <HelpInBarGroup helpIcon={helpIcon} setHelpIcon={setHelpIcon} />
+        </div>
+        <div id="settingsClick">
+          <SettingsInBarGroup
+            settingsIcon={settingsIcon}
+            setSettingsIcon={setSettingsIcon}
+          />
+        </div>
+      </label>
     </label>
   );
 }

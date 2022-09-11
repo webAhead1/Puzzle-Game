@@ -5,16 +5,13 @@ export default function UserInBarGroup(props) {
   const setUserIcon = props.setUserIcon;
   const userClick = () => setUserIcon(!userIcon);
   return (
-    <label htmlFor="idn">
-      <input
-        type="button"
-        name="userIcon"
-        key="userIcon"
-        onClick={userClick}
-        onChange={(e) => setUserIcon(e.target.onClick)}
-      >
-        <img src="/pic/user-icon.png" />
-      </input>
+    <label htmlFor="idn" className="idn">
+      <img
+        src="/pic/user-icon.png"
+        onClick={() => {
+          userClick();
+        }}
+      />
     </label>
   );
 }

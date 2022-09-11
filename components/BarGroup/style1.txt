@@ -1,0 +1,1059 @@
+/* Puzzle React Game */
+
+position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #E6D2AA;
+
+
+/* Puzzle Group */
+
+position: absolute;
+width: 759.98px;
+height: 429.41px;
+left: 339.59px;
+top: 566.59px;
+
+
+
+/* Group 7 */
+
+position: absolute;
+width: 752.12px;
+height: 363.51px;
+left: 339.59px;
+top: 632.49px;
+
+
+
+/* Rectangle 7 */
+
+position: absolute;
+width: 752.12px;
+height: 363.51px;
+left: 339.59px;
+top: 632.49px;
+
+background: #D36B00;
+
+
+/* pic2 */
+
+position: absolute;
+width: 721.47px;
+height: 333.45px;
+left: 355.34px;
+top: 647.05px;
+
+background: url(919GmjBSEZS.jpg);
+
+
+/* 7.1 */
+
+position: absolute;
+width: 720.38px;
+height: 333.45px;
+left: 355.34px;
+top: 647.05px;
+
+
+
+/* Rectangle 9 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 240.13px;
+height: 111.15px;
+left: 835.59px;
+top: 869.34px;
+
+background: rgba(241, 239, 220, 0.2);
+border: 1px solid #000000;
+
+
+/* Rectangle 8 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 240.13px;
+height: 111.15px;
+left: 835.59px;
+top: 758.19px;
+
+background: rgba(241, 239, 220, 0.2);
+border: 1px solid #000000;
+
+
+/* Rectangle 7 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 240.13px;
+height: 111.15px;
+left: 835.59px;
+top: 647.05px;
+
+background: rgba(241, 239, 220, 0.2);
+border: 1px solid #000000;
+
+
+/* Rectangle 6 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 240.13px;
+height: 111.15px;
+left: 595.46px;
+top: 869.34px;
+
+background: rgba(241, 239, 220, 0.2);
+border: 1px solid #000000;
+
+
+/* Rectangle 5 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 240.13px;
+height: 111.15px;
+left: 595.46px;
+top: 758.19px;
+
+background: rgba(241, 239, 220, 0.2);
+border: 1px solid #000000;
+
+
+/* Rectangle 4 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 240.13px;
+height: 111.15px;
+left: 595.46px;
+top: 647.05px;
+
+background: rgba(241, 239, 220, 0.2);
+border: 1px solid #000000;
+
+
+/* Rectangle 3 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 240.13px;
+height: 111.15px;
+left: 355.34px;
+top: 869.34px;
+
+background: rgba(241, 239, 220, 0.2);
+border: 1px solid #000000;
+
+
+/* Rectangle 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 240.13px;
+height: 111.15px;
+left: 355.34px;
+top: 758.19px;
+
+background: rgba(241, 239, 220, 0.2);
+border: 1px solid #000000;
+
+
+/* Rectangle 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 240.13px;
+height: 111.15px;
+left: 355.34px;
+top: 647.05px;
+
+background: rgba(241, 239, 220, 0.2);
+border: 1px solid #000000;
+
+
+/* Timer Group 6 */
+
+position: absolute;
+width: 758.99px;
+height: 46.41px;
+left: 340.57px;
+top: 566.59px;
+
+
+
+/* 6.2 */
+
+position: absolute;
+width: 220.48px;
+height: 46.41px;
+left: 340.57px;
+top: 566.59px;
+
+
+
+/* Rectangle 6.2 */
+
+position: absolute;
+width: 220.48px;
+height: 46.41px;
+left: 340.57px;
+top: 566.59px;
+
+background: #E6D2AA;
+
+
+/* Timer: */
+
+position: absolute;
+width: 220.48px;
+height: 29.08px;
+left: 340.57px;
+top: 574.35px;
+
+font-family: 'Margarine';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+
+color: #42032C;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* 6.1 */
+
+position: absolute;
+width: 219.61px;
+height: 45.55px;
+left: 879.95px;
+top: 566.59px;
+
+
+
+/* Rectangle 6.1 */
+
+position: absolute;
+width: 219.47px;
+height: 45.55px;
+left: 880.1px;
+top: 566.59px;
+
+background: #E6D2AA;
+
+
+/* Best time: */
+
+position: absolute;
+width: 219.49px;
+height: 28.11px;
+left: 879.95px;
+top: 574.35px;
+
+font-family: 'Margarine';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+
+color: #42032C;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Choose level Group */
+
+position: absolute;
+width: 1189px;
+height: 145.42px;
+left: 126px;
+top: 421.11px;
+
+
+
+/* Group 5 */
+
+position: absolute;
+width: 1189px;
+height: 79.27px;
+left: 126px;
+top: 487.26px;
+
+
+
+/* 5.3 */
+
+position: absolute;
+width: 309.09px;
+height: 55.13px;
+left: 918.15px;
+top: 487.26px;
+
+
+
+/* hard */
+
+position: absolute;
+width: 309.09px;
+height: 55.13px;
+left: 918.15px;
+top: 487.26px;
+
+background: #D36B00;
+
+
+/* Hard */
+
+position: absolute;
+width: 127.49px;
+height: 27.56px;
+left: 1008.95px;
+top: 500.65px;
+
+font-family: 'Margarine';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #42032C;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* 5.2 */
+
+position: absolute;
+width: 309.09px;
+height: 55.13px;
+left: 559.54px;
+top: 487.26px;
+
+
+
+/* middle */
+
+position: absolute;
+width: 309.09px;
+height: 55.13px;
+left: 559.54px;
+top: 487.26px;
+
+background: #D36B00;
+
+
+/* Middle */
+
+position: absolute;
+width: 135.74px;
+height: 27.56px;
+left: 645.75px;
+top: 500.65px;
+
+font-family: 'Margarine';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #42032C;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* 5.1 */
+
+position: absolute;
+width: 309.09px;
+height: 55.13px;
+left: 213.76px;
+top: 487.26px;
+
+
+
+/* easy */
+
+position: absolute;
+width: 309.09px;
+height: 55.13px;
+left: 213.76px;
+top: 487.26px;
+
+background: #D36B00;
+
+
+/* Easy */
+
+position: absolute;
+width: 127.49px;
+height: 27.56px;
+left: 304.56px;
+top: 500.65px;
+
+font-family: 'Margarine';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #42032C;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Line 1 */
+
+position: absolute;
+width: 1189px;
+height: 0px;
+left: 126px;
+top: 565.7px;
+
+border: 1px solid #42032C;
+transform: matrix(1, 0, 0, 1, 0, 0);
+
+
+/* Group 4 */
+
+position: absolute;
+width: 309.09px;
+height: 44.1px;
+left: 559.54px;
+top: 421.11px;
+
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 309.09px;
+height: 44.1px;
+left: 559.54px;
+top: 421.11px;
+
+background: #E6D2AA;
+
+
+/* choose level */
+
+position: absolute;
+width: 145.96px;
+height: 26.93px;
+left: 651.07px;
+top: 429.34px;
+
+font-family: 'Margarine';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #42032C;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Choose Pic Group */
+
+position: absolute;
+width: 1013.48px;
+height: 235.48px;
+left: 213.76px;
+top: 162px;
+
+
+
+/* Group 3 */
+
+position: absolute;
+width: 1013.48px;
+height: 167.75px;
+left: 213.76px;
+top: 229.73px;
+
+
+
+/* Group 3.3 */
+
+position: absolute;
+width: 308.88px;
+height: 167.75px;
+left: 918.36px;
+top: 229.73px;
+
+
+
+/* Rectangle 3.3.1 */
+
+position: absolute;
+width: 308.88px;
+height: 167.75px;
+left: 918.36px;
+top: 229.73px;
+
+background: #D36B00;
+
+
+/* pic3 */
+
+position: absolute;
+width: 281.12px;
+height: 146.6px;
+left: 932.69px;
+top: 239.94px;
+
+background: url(4551d99f.jpg);
+
+
+/* Group 3.2 */
+
+position: absolute;
+width: 308.88px;
+height: 167.75px;
+left: 559.35px;
+top: 229.73px;
+
+
+
+/* Rectangle 3.2.1 */
+
+position: absolute;
+width: 308.88px;
+height: 167.75px;
+left: 559.35px;
+top: 229.73px;
+
+background: #D36B00;
+
+
+/* pic2 */
+
+position: absolute;
+width: 281.12px;
+height: 146.6px;
+left: 572.78px;
+top: 239.94px;
+
+background: url(919GmjBSEZS.jpg);
+
+
+/* Group 3.1 */
+
+position: absolute;
+width: 308.88px;
+height: 167.75px;
+left: 213.76px;
+top: 229.73px;
+
+
+
+/* Rectangle 3.1.1 */
+
+position: absolute;
+width: 308.88px;
+height: 167.75px;
+left: 213.76px;
+top: 229.73px;
+
+background: #D36B00;
+
+
+/* pic1 */
+
+position: absolute;
+width: 281.12px;
+height: 146.6px;
+left: 227.19px;
+top: 239.94px;
+
+background: url(91-cHIxIi3L.jpg);
+
+
+/* Group 2 */
+
+position: absolute;
+width: 309.09px;
+height: 45.68px;
+left: 559.54px;
+top: 162px;
+
+
+
+/* Rectangle 7 */
+
+position: absolute;
+width: 309.09px;
+height: 45.68px;
+left: 559.54px;
+top: 162px;
+
+background: #E6D2AA;
+
+
+/* choose picture: */
+
+position: absolute;
+width: 210.84px;
+height: 28.85px;
+left: 608.49px;
+top: 170.66px;
+
+font-family: 'Margarine';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #42032C;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Bar Group 1 */
+
+position: absolute;
+width: 1189px;
+height: 108.83px;
+left: 125px;
+top: 40px;
+
+
+
+/* 1.2 */
+
+position: absolute;
+width: 104.45px;
+height: 45.8px;
+left: 1209.55px;
+top: 102.29px;
+
+
+
+/* settings-icon */
+
+position: absolute;
+width: 52.22px;
+height: 45.8px;
+left: 1261.78px;
+top: 102.29px;
+
+background: url(icons8-gear-100.png);
+border-radius: 12px;
+
+
+/* help-icon */
+
+position: absolute;
+width: 52.22px;
+height: 44.19px;
+left: 1209.55px;
+top: 102.29px;
+
+background: url(icons8-help-100.png);
+
+
+/* 1.1 */
+
+position: absolute;
+width: 267.64px;
+height: 52.08px;
+left: 125px;
+top: 96px;
+
+
+
+/* Rectangle 10 */
+
+position: absolute;
+width: 205.16px;
+height: 29.63px;
+left: 187.48px;
+top: 104.98px;
+
+background: #E6D2AA;
+
+
+/* Hello, Asma */
+
+position: absolute;
+width: 183.71px;
+height: 27.84px;
+left: 187.48px;
+top: 106.78px;
+
+font-family: 'Margarine';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+
+color: #42032C;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* user-icon */
+
+position: absolute;
+width: 54.09px;
+height: 52.08px;
+left: 125px;
+top: 96px;
+
+background: url(icons8-user-100.png);
+
+
+/* Logo Group */
+
+position: absolute;
+width: 171px;
+height: 86.72px;
+left: 639px;
+top: 40px;
+
+
+
+/* logo-icon3 */
+
+position: absolute;
+width: 50px;
+height: 50px;
+left: 694px;
+top: 75.23px;
+
+background: url(icons8-puzzle-64.png);
+transform: rotate(-6deg);
+
+
+/* logo-icon2 */
+
+position: absolute;
+width: 50px;
+height: 50px;
+left: 699px;
+top: 74px;
+
+background: url(icons8-puzzle-64.png);
+
+
+/* logo-icon1 */
+
+position: absolute;
+width: 52px;
+height: 50px;
+left: 686px;
+top: 77.81px;
+
+background: url(icons8-puzzle-64.png);
+transform: rotate(-12deg);
+
+
+/* PUZZLE ME */
+
+position: absolute;
+width: 171px;
+height: 27px;
+left: 639px;
+top: 40px;
+
+font-family: 'Margarine';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #42032C;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Line 2 */
+
+position: absolute;
+width: 1189px;
+height: 0px;
+left: 125px;
+top: 148.08px;
+
+border: 1px solid #42032C;
+transform: matrix(1, 0, 0, 1, 0, 0);
+
+
+/* Settings Frame 4 */
+
+position: absolute;
+visibility: hidden;
+width: 461px;
+height: 273px;
+left: 827px;
+top: 149px;
+
+background: #F1EFDC;
+border: 2px solid #42032C;
+
+
+/* F4-G1 */
+
+position: absolute;
+width: 409px;
+height: 224px;
+left: 26px;
+top: 25px;
+
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 409px;
+height: 176px;
+left: 26px;
+top: 73px;
+
+background: rgba(211, 107, 0, 0.3);
+
+
+/* Sound : on Music : off About us contact */
+
+position: absolute;
+width: 175px;
+height: 135.23px;
+left: 56px;
+top: 93.14px;
+
+font-family: 'Margarine';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+
+color: #42032C;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Settings */
+
+position: absolute;
+width: 140px;
+height: 37px;
+left: 26px;
+top: 25px;
+
+font-family: 'Margarine';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+
+color: #42032C;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Instructions Frame 3 */
+
+position: absolute;
+visibility: hidden;
+width: 461px;
+height: 273px;
+left: 781px;
+top: 146px;
+
+background: #F1EFDC;
+border: 2px solid #42032C;
+
+
+/* F3-G2 */
+
+position: absolute;
+width: 405px;
+height: 150px;
+left: 28px;
+top: 98px;
+
+
+
+/* Rectangle 14 */
+
+position: absolute;
+width: 405px;
+height: 150px;
+left: 28px;
+top: 98px;
+
+background: rgba(211, 107, 0, 0.3);
+
+
+/* First of all, you need to choose any picture, then to choose which level you want to play, then you are ready to play! */
+
+position: absolute;
+width: 368px;
+height: 128px;
+left: 46px;
+top: 110px;
+
+font-family: 'Margarine';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #42032C;
+
+
+
+/* F3-G1 */
+
+position: absolute;
+width: 204px;
+height: 48px;
+left: 128px;
+top: 32px;
+
+
+
+/* Rectangle 13 */
+
+position: absolute;
+width: 204px;
+height: 48px;
+left: 128px;
+top: 32px;
+
+background: #D36B00;
+
+
+/* Instructions */
+
+position: absolute;
+width: 167px;
+height: 41px;
+left: 146px;
+top: 39px;
+
+font-family: 'Margarine';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #42032C;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* User Frame 2 */
+
+position: absolute;
+visibility: hidden;
+width: 461px;
+height: 273px;
+left: 152px;
+top: 149px;
+
+background: #F1EFDC;
+border: 2px solid #42032C;
+
+
+/* F2-G2 */
+
+position: absolute;
+width: 185px;
+height: 40px;
+left: 138px;
+top: 148px;
+
+
+
+/* Rectangle 12 */
+
+position: absolute;
+width: 185px;
+height: 40px;
+left: 138px;
+top: 148px;
+
+background: rgba(211, 107, 0, 0.3);
+
+
+/* Here */
+
+position: absolute;
+width: 82px;
+height: 28px;
+left: 187px;
+top: 153px;
+
+font-family: 'Margarine';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: rgba(66, 3, 44, 0.3);
+
+
+
+/* F2-G1 */
+
+position: absolute;
+width: 247px;
+height: 48px;
+left: 107px;
+top: 89px;
+
+
+
+/* Rectangle 11 */
+
+position: absolute;
+width: 247px;
+height: 48px;
+left: 107px;
+top: 89px;
+
+background: #D36B00;
+
+
+/* Enter username */
+
+position: absolute;
+width: 208px;
+height: 29px;
+left: 126px;
+top: 101px;
+
+font-family: 'Margarine';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #42032C;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
