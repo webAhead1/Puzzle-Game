@@ -1,5 +1,5 @@
 import React from "react";
-import HelpWindow from "./HelpWindow";
+import HelpWindow from "../popUp/HelpWindow";
 
 export default function HelpInBarGroup(props) {
   const helpIcon = props.helpIcon;
