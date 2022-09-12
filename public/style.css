@@ -117,6 +117,13 @@ main {
   left: 918.15px;
   top: 487.26px;
 }
+.choosePicWithPics{
+  position: center;
+  width: 1013.24px;
+  height: 235.48px;
+  left: 214px;
+  top: 162px;
+}
 
 .ChoosePicture {
   position: absolute;
