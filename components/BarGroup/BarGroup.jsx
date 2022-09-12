@@ -14,11 +14,7 @@ export default function BarGroup(props) {
   const setUsername = props.setUsername;
 
   return (
-    <label htmlFor="BarGroup1">
-      <div className="logo">
-        <h3>PUZZLE ME</h3>
-        <img src="./pic/logo-icon.png" />
-      </div>
+    <div className="BarGroup1">
       <div className="userClick">
         <UserInBarGroup
           userIcon={userIcon}
@@ -28,7 +24,11 @@ export default function BarGroup(props) {
         />
         {username && <div>Hello {username}</div>}
       </div>
-      <label>
+      <div className="logo">
+        <h3>PUZZLE ME</h3>
+        <img src="./pic/logo-icon.png" />
+      </div>
+      <div className="helpAndSettingsIcons">
         <div className="helpClick">
           <HelpInBarGroup helpIcon={helpIcon} setHelpIcon={setHelpIcon} />
         </div>
@@ -38,7 +38,7 @@ export default function BarGroup(props) {
             setSettingsIcon={setSettingsIcon}
           />
         </div>
-      </label>
-    </label>
+      </div>
+    </div>
   );
 }

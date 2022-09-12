@@ -23,8 +23,22 @@ main {
 .idn {
   background-color: var(--page);
 }
+.BarGroup {
+  width: 100%;
+}
+.BarGroup1 {
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+.helpAndSettingsIcons {
+  display: flex;
+}
+
 .logo {
-  position: absolute;
+  font: Margarine;
   height: 86.72px;
   width: 171px;
   left: 639px;
@@ -32,14 +46,10 @@ main {
 }
 
 .userClick {
-  position: absolute;
-  height: 52.08px;
-  width: 54.09px;
   left: 125px;
   top: 96px;
 }
 .userWindow {
-  position: absolute;
   width: 461px;
   height: 273px;
   left: 152px;
@@ -50,14 +60,10 @@ main {
 }
 
 .helpClick {
-  position: absolute;
-  height: 44.19px;
-  width: 52.22px;
   left: 1209.55px;
   top: 102.29px;
 }
 .helpWindow {
-  position: absolute;
   width: 461px;
   height: 273px;
   left: 781px;
@@ -67,14 +73,10 @@ main {
   border: 2px solid #42032c;
 }
 .settingsClick {
-  position: absolute;
-  height: 45.8px;
-  width: 52.22px;
   left: 1300.78px;
   top: 102.29px;
 }
 .settingsWindow {
-  position: absolute;
   width: 461px;
   height: 273px;
   left: 827px;
