@@ -31,7 +31,7 @@ export default function ChoosePicGroup(props) {
     setPic2(false)
   };
   return (
-    <label>
+    <div className="choosePicWithPics">
       <div className="ChoosePicture">Choose picture</div>
       <label>
           <div className="backgroundPic1"
@@ -86,6 +86,6 @@ export default function ChoosePicGroup(props) {
           }}
         />
       </label>
-      </label>
+      </div>
   );
 }
