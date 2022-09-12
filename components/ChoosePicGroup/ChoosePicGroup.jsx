@@ -29,8 +29,8 @@ export default function ChoosePicGroup(props) {
           }}
         />
       </label>
-      
-      <label className="pictures">
+      <label>
+        <div className="backGroundpic2">
         <img className="pic2"
           src="/pic/pic2.jpg"
           onClick={() => {
