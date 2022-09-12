@@ -1,48 +1,68 @@
 import React from "react";
 
 export default function ChooseLevelGroup(props) {
+
   const easy = props.easy;
   const setEasy = props.setEasy;
-  const easyClick = () => setEasy(!easy);
-  const middle = props.setMiddle;
-  const setMiddle = props.setMiddle;
-  const middleClick = () => setMiddle(!middle);
+  //const easyClick = () => setEasy(!easy);
+  const medium = props.medium;
+  const setMedium = props.setMedium;
+  //const middleClick = () => setMiddle(!middle);
   const hard = props.hard;
   const setHard = props.setHard;
-  const hardClick = () => setHard(!hard);
+  //const hardClick = () => setHard(!hard);
+  const [isEasyActive, setIsEastActive] = React.useState(false);
+  const [isMediumActive, setIsMediumtActive] = React.useState(false);
+  const [isHardActive, setIsHardActive] = React.useState(false);
+  const handleEasyClick = () => setIsEastActive(!isEasyActive)
+  const handleMediumClick = () => setIsMediumtActive(!isMediumActive)
+  const handleHardClick = () => setIsHardActive(!isHardActive)
+
+
+  const divEasyStyle = {
+    backgroundColor: isEasyActive ? '#42032C' : null,
+    color: isEasyActive ? '#D36B00' : null
+  }
+  const divMediumStyle = {
+    backgroundColor: isMediumActive ? '#42032C' : null,
+    color: isMediumActive ? '#D36B00' : null
+  }
+  const divHardStyle = {
+    backgroundColor: isHardActive ? '#42032C' : null,
+    color: isHardActive ? '#D36B00' : null
+  }
+
   return (
     <label>
       <div className="ChooseLevel">Choose Level</div>
       <label className="levels">
         <div
           className="easyLevel"
-          onClick={() => {
-            easyClick();
-          }}
+          style={divEasyStyle}
+          onClick={handleEasyClick}
         >
-          easy
+          {easy}
+
         </div>
       </label>
 
       <label className="levels">
         <div
-          className="middleLevel"
-          onClick={() => {
-            middleClick();
-          }}
+          className="mediumLevel"
+          style={divMediumStyle}
+          onClick={handleMediumClick}
         >
-          middle
+          {medium}
         </div>
       </label>
 
       <label className="levels">
         <div
           className="hardLevel"
-          onClick={() => {
-            hardClick();
-          }}
+          style={divHardStyle}
+          onClick={handleHardClick}
         >
-          <div>hard</div>
+          {hard}
         </div>
       </label>
     </label>
