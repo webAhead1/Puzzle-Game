@@ -103,11 +103,11 @@ main {
 
 .easyLevel {
   /* 5.1 */
-
+  cursor: pointer;
   position: absolute;
   width: 309.09px;
-  height: 55.13px;
-  left: 213.76px;
+  height: 70.13px;
+  left: 100px;
   top: 487.26px;
 
 
@@ -116,8 +116,8 @@ main {
 
   position: absolute;
   width: 309.09px;
-  height: 55.13px;
-  left: 213.76px;
+  height: 70.13px;
+  left: 100px;
   top: 487.26px;
 
   background: #D36B00;
@@ -126,9 +126,9 @@ main {
   /* Easy */
 
   position: absolute;
-  width: 127.49px;
-  height: 27.56px;
-  left: 304.56px;
+  width: 150px;
+  height: 35px;
+  left: 300px;
   top: 500.65px;
 
   font-family: 'Margarine';
@@ -149,9 +149,10 @@ main {
 .mediumLevel {
   /* 5.2 */
 
+  cursor: pointer;
   position: absolute;
   width: 309.09px;
-  height: 55.13px;
+  height: 70.13px;
   left: 559.54px;
   top: 487.26px;
 
@@ -161,7 +162,7 @@ main {
 
   position: absolute;
   width: 309.09px;
-  height: 55.13px;
+  height: 70.13px;
   left: 559.54px;
   top: 487.26px;
 
@@ -171,8 +172,8 @@ main {
   /* Middle */
 
   position: absolute;
-  width: 135.74px;
-  height: 27.56px;
+  width: 150px;
+  height: 35px;
   left: 645.75px;
   top: 500.65px;
 
@@ -193,9 +194,10 @@ main {
 .hardLevel {
   /* 5.3 */
 
+  cursor: pointer;
   position: absolute;
   width: 309.09px;
-  height: 55.13px;
+  height: 70.13px;
   left: 918.15px;
   top: 487.26px;
 
@@ -205,7 +207,7 @@ main {
 
   position: absolute;
   width: 309.09px;
-  height: 55.13px;
+  height: 70.13px;
   left: 918.15px;
   top: 487.26px;
 
@@ -215,8 +217,8 @@ main {
   /* Hard */
 
   position: absolute;
-  width: 127.49px;
-  height: 27.56px;
+  width: 150px;
+  height: 35px;
   left: 1008.95px;
   top: 500.65px;
 
