@@ -10,9 +10,9 @@ function App() {
   const [pic1, setPic1] = React.useState(false);
   const [pic2, setPic2] = React.useState(false);
   const [pic3, setPic3] = React.useState(false);
-  const [easy, setEasy] = React.useState("Easy");
-  const [medium, setMedium] = React.useState("Medium");
-  const [hard, setHard] = React.useState("Hard");
+  const [easy, setEasy] = React.useState(false);
+  const [medium, setMedium] = React.useState(false);
+  const [hard, setHard] = React.useState(false);
   const [username, setUsername] = React.useState(0);
   return (
     <main>

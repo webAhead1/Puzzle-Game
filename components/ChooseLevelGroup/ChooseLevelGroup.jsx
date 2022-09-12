@@ -4,32 +4,42 @@ export default function ChooseLevelGroup(props) {
 
   const easy = props.easy;
   const setEasy = props.setEasy;
-  //const easyClick = () => setEasy(!easy);
   const medium = props.medium;
   const setMedium = props.setMedium;
-  //const middleClick = () => setMiddle(!middle);
   const hard = props.hard;
   const setHard = props.setHard;
-  //const hardClick = () => setHard(!hard);
-  const [isEasyActive, setIsEastActive] = React.useState(false);
-  const [isMediumActive, setIsMediumtActive] = React.useState(false);
-  const [isHardActive, setIsHardActive] = React.useState(false);
-  const handleEasyClick = () => setIsEastActive(!isEasyActive)
-  const handleMediumClick = () => setIsMediumtActive(!isMediumActive)
-  const handleHardClick = () => setIsHardActive(!isHardActive)
 
+  // const [isEasyActive, setIsEastActive] = React.useState(false);
+  // const [isMediumActive, setIsMediumtActive] = React.useState(false);
+  // const [isHardActive, setIsHardActive] = React.useState(false);
+
+  const handleEasyClick = () => {
+    setEasy(!easy)
+    setMedium(false)
+    setHard(false)
+  }
+  const handleMediumClick = () => {
+    setEasy(false)
+    setMedium(!medium)
+    setHard(false)
+  }
+  const handleHardClick = () => {
+    setEasy(false)
+    setMedium(false)
+    setHard(!hard)
+  }
 
   const divEasyStyle = {
-    backgroundColor: isEasyActive ? '#42032C' : null,
-    color: isEasyActive ? '#D36B00' : null
+    backgroundColor: easy ? '#42032C' : null,
+    color: easy ? '#D36B00' : null
   }
   const divMediumStyle = {
-    backgroundColor: isMediumActive ? '#42032C' : null,
-    color: isMediumActive ? '#D36B00' : null
+    backgroundColor: medium ? '#42032C' : null,
+    color: medium ? '#D36B00' : null
   }
   const divHardStyle = {
-    backgroundColor: isHardActive ? '#42032C' : null,
-    color: isHardActive ? '#D36B00' : null
+    backgroundColor: hard ? '#42032C' : null,
+    color: hard ? '#D36B00' : null
   }
 
   return (
@@ -41,7 +51,7 @@ export default function ChooseLevelGroup(props) {
           style={divEasyStyle}
           onClick={handleEasyClick}
         >
-          {easy}
+          Easy
 
         </div>
       </label>
@@ -52,7 +62,7 @@ export default function ChooseLevelGroup(props) {
           style={divMediumStyle}
           onClick={handleMediumClick}
         >
-          {medium}
+          Medium
         </div>
       </label>
 
@@ -62,7 +72,7 @@ export default function ChooseLevelGroup(props) {
           style={divHardStyle}
           onClick={handleHardClick}
         >
-          {hard}
+          Hard
         </div>
       </label>
     </label>
