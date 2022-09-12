@@ -14,6 +14,7 @@ body {
   font-family: Margarine, sans-serif;
   color: var(--darkPurple);
   background-color: var(--page);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 main {
@@ -61,6 +62,7 @@ main {
   width: 171px;
   left: 639px;
   top: 40px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .userClick {
@@ -94,163 +96,86 @@ main {
 }
 
 .ChooseLevel {
+  background: #e6d2aa;
   position: absolute;
-  width: 309.09px;
-  height: 44.1px;
-  left: 559.54px;
-  top: 421.11px;
-  position: absolute;
-  width: 309.09px;
-  height: 44.1px;
-  left: 559.54px;
-  top: 421.11px;
-  background: #E6D2AA;
-  position: absolute;
-  width: 145.96px;
-  height: 26.93px;
-  left: 651.07px;
-  top: 429.34px;
-  font-family: 'Margarine';
+  width: 309px;
+  height: 59px;
+  top: 415px;
+  left: 562px;
+  font-family: "Margarine";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
   text-align: center;
-  color: #42032C;
+  color: #42032c;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .easyLevel {
-<<<<<<< HEAD
-  /* 5.1 */
-  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #d36b00;
   position: absolute;
-  width: 309.09px;
-  height: 70.13px;
-  left: 100px;
-=======
-  position: absolute;
-  width: 309.09px;
-  height: 70px;
-  left: 213.76px;
->>>>>>> 1e15dfeed97d0623728f952de492e82abde09041
-  top: 487.26px;
-  position: absolute;
-<<<<<<< HEAD
-  width: 309.09px;
-  height: 70.13px;
-=======
-  width: 450px;
-  height: 80px;
->>>>>>> 1e15dfeed97d0623728f952de492e82abde09041
-  left: 100px;
-  top: 487.26px;
-  background: #D36B00;
-  position: absolute;
-<<<<<<< HEAD
-  width: 150px;
-  height: 35px;
-  left: 300px;
-=======
-  width: 200px;
-  height: 35px;
-  left: 304.56px;
->>>>>>> 1e15dfeed97d0623728f952de492e82abde09041
-  top: 500.65px;
-  font-family: 'Margarine';
+  width: 309px;
+  height: 59px;
+  left: 217px;
+  top: 483px;
+  font-family: "Margarine";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
   text-align: center;
-  color: #42032C;
+  color: #42032c;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .mediumLevel {
-<<<<<<< HEAD
-  /* 5.2 */
-
-  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #d36b00;
   position: absolute;
-  width: 309.09px;
-  height: 70.13px;
-=======
-  position: absolute;
-  width: 309.09px;
-  height: 70px;
->>>>>>> 1e15dfeed97d0623728f952de492e82abde09041
-  left: 559.54px;
-  top: 487.26px;
-  position: absolute;
-  width: 309.09px;
-<<<<<<< HEAD
-  height: 70.13px;
-  left: 559.54px;
-=======
-  height: 80px;
-  left: 300px;
->>>>>>> 1e15dfeed97d0623728f952de492e82abde09041
-  top: 487.26px;
-  background: #D36B00;
-  position: absolute;
-  width: 150px;
-  height: 35px;
-  left: 645.75px;
-  top: 500.65px;
-  font-family: 'Margarine';
+  width: 309px;
+  height: 59px;
+  left: 562px;
+  top: 483px;
+  font-family: "Margarine";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
   text-align: center;
-  color: #42032C;
+  color: #42032c;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .hardLevel {
-<<<<<<< HEAD
-  /* 5.3 */
-
-  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #d36b00;
   position: absolute;
-  width: 309.09px;
-  height: 70.13px;
-=======
-  position: absolute;
-  width: 309.09px;
-  height: 70px;
->>>>>>> 1e15dfeed97d0623728f952de492e82abde09041
-  left: 918.15px;
-  top: 487.26px;
-  position: absolute;
-  width: 309.09px;
-<<<<<<< HEAD
-  height: 70.13px;
-  left: 918.15px;
-=======
-  height: 80px;
-  left: 500px;
->>>>>>> 1e15dfeed97d0623728f952de492e82abde09041
-  top: 487.26px;
-  background: #D36B00;
-  position: absolute;
-  width: 150px;
-  height: 35px;
-  left: 1008.95px;
-  top: 500.65px;
-  font-family: 'Margarine';
+  width: 309px;
+  height: 59px;
+  left: 921px;
+  top: 483px;
+  font-family: "Margarine";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
   text-align: center;
-  color: #42032C;
+  color: #42032c;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .choosePicWithPics {
-  position: center;
   width: 1013.24px;
   height: 235.48px;
   left: 214px;
@@ -259,10 +184,10 @@ main {
 
 .ChoosePicture {
   position: absolute;
-  width: 210.84px;
-  height: 28.85px;
-  left: 608.49px;
-  top: 170.66px;
+  width: 309px;
+  height: 59px;
+  left: 562px;
+  top: 162px;
   font-family: "Margarine";
   font-style: normal;
   font-weight: 400;

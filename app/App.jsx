@@ -13,7 +13,7 @@ function App() {
   const [easy, setEasy] = React.useState(false);
   const [medium, setMedium] = React.useState(false);
   const [hard, setHard] = React.useState(false);
-  const [username, setUsername] = React.useState("Mario amazing");
+  const [username, setUsername] = React.useState("Asmsaaa");
   return (
     <main>
       <section className="BarGroup">

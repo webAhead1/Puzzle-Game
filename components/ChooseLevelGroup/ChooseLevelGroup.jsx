@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function ChooseLevelGroup(props) {
-
   const easy = props.easy;
   const setEasy = props.setEasy;
   const medium = props.medium;
@@ -14,49 +13,46 @@ export default function ChooseLevelGroup(props) {
   // const [isHardActive, setIsHardActive] = React.useState(false);
 
   const handleEasyClick = () => {
-    setEasy(!easy)
-    setMedium(false)
-    setHard(false)
-  }
+    setEasy(!easy);
+    setMedium(false);
+    setHard(false);
+  };
   const handleMediumClick = () => {
-    setEasy(false)
-    setMedium(!medium)
-    setHard(false)
-  }
+    setEasy(false);
+    setMedium(!medium);
+    setHard(false);
+  };
   const handleHardClick = () => {
-    setEasy(false)
-    setMedium(false)
-    setHard(!hard)
-  }
+    setEasy(false);
+    setMedium(false);
+    setHard(!hard);
+  };
 
   const divEasyStyle = {
-    backgroundColor: easy ? '#42032C' : null,
-    color: easy ? '#D36B00' : null
-  }
+    backgroundColor: easy ? "#42032C" : null,
+    color: easy ? "#D36B00" : null,
+  };
   const divMediumStyle = {
-    backgroundColor: medium ? '#42032C' : null,
-    color: medium ? '#D36B00' : null
-  }
+    backgroundColor: medium ? "#42032C" : null,
+    color: medium ? "#D36B00" : null,
+  };
   const divHardStyle = {
-    backgroundColor: hard ? '#42032C' : null,
-    color: hard ? '#D36B00' : null
-  }
+    backgroundColor: hard ? "#42032C" : null,
+    color: hard ? "#D36B00" : null,
+  };
 
   return (
-    <label>
+    <div className="chooseLevelWithLevels">
       <div className="ChooseLevel">Choose Level</div>
-      <label className="levels">
+      <div className="levels">
         <div
           className="easyLevel"
           style={divEasyStyle}
           onClick={handleEasyClick}
         >
           Easy
-
         </div>
-      </label>
 
-      <label className="levels">
         <div
           className="mediumLevel"
           style={divMediumStyle}
@@ -64,9 +60,7 @@ export default function ChooseLevelGroup(props) {
         >
           Medium
         </div>
-      </label>
 
-      <label className="levels">
         <div
           className="hardLevel"
           style={divHardStyle}
@@ -74,7 +68,7 @@ export default function ChooseLevelGroup(props) {
         >
           Hard
         </div>
-      </label>
-    </label>
+      </div>
+    </div>
   );
 }

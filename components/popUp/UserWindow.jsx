@@ -6,10 +6,7 @@ export default function UserWindow(props) {
   const setUsername = props.setUsername;
   return (
     <div className={style.userWindow}>
-      <div className={style["f2-g1"]}>
-        <div className={style.enterUsername}>Enter username</div>
-        <div className={style.rectangle11}> </div>
-      </div>
+      <div className={style.enterUsername}>Enter username</div>
       <input
         type="text"
         name="username"
