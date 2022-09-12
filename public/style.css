@@ -10,7 +10,7 @@ html {
   --lightPage: rgb(241, 239, 220);
 }
 body {
-  font: Margarine;
+  font-family: Margarine, sans-serif;
   color: var(--darkPurple);
   background-color: var(--page);
 }
@@ -30,7 +30,9 @@ main {
   margin: auto;
   margin-top: 40px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 2px solid;
   width: 80%;
 }
 
@@ -44,6 +46,7 @@ main {
 
 .logo img {
   margin-left: 19px;
+  width: 50px;
 }
 
 .helpAndSettingsIcons {
@@ -61,45 +64,31 @@ main {
 .userClick {
   left: 125px;
   top: 96px;
+  display: flex;
+  align-items: center;
 }
 
 .userClick img {
-  width: 50px;
-  height: 50px;
-}
-.userWindow {
-  width: 461px;
-  height: 273px;
-  left: 152px;
-  top: 149px;
-  background: #f1efdc;
-  border: 2px solid #42032c;
+  width: 52.22px;
+  height: 52.22px;
 }
 
 .helpClick {
   left: 1209.55px;
   top: 102.29px;
 }
-.helpWindow {
-  width: 461px;
-  height: 273px;
-  left: 781px;
-  top: 146px;
-  background: #f1efdc;
-  border: 2px solid #42032c;
+.helpClick img {
+  width: 52.22px;
+  height: 52.22px;
 }
+
 .settingsClick {
   left: 1300.78px;
   top: 102.29px;
 }
-.settingsWindow {
-  width: 461px;
-  height: 273px;
-  left: 827px;
-  top: 149px;
-
-  background: var(--lightPage);
-  border: 2px solid var(--darkPurple);
+.settingsClick img {
+  width: 52.22px;
+  height: 52.22px;
 }
 
 .ChooseLevel {

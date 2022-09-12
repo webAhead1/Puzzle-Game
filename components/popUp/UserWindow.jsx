@@ -1,13 +1,14 @@
 import React from "react";
+import style from "./style.module.css";
 
 export default function UserWindow(props) {
   const username = props.username;
   const setUsername = props.setUsername;
   return (
-    <div className="userWindow">
-      <div className="f2-g1">
-        <div className="enterUsername">Enter username</div>
-        <div className="rectangle11"> </div>
+    <div className={style.userWindow}>
+      <div className={style["f2-g1"]}>
+        <div className={style.enterUsername}>Enter username</div>
+        <div className={style.rectangle11}> </div>
       </div>
       <input
         type="text"

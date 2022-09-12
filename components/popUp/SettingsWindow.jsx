@@ -1,8 +1,9 @@
 import React from "react";
+import style from "./style.module.css";
 
 export default function SettingsWindow(props) {
   return (
-    <div className="settingsWindow">
+    <div className={style.settingsWindow}>
       <div>Settings</div>
       <div>
         Sound : on <br />
