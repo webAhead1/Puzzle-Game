@@ -2,6 +2,7 @@ import React from "react";
 import BarGroup from "../components/BarGroup/BarGroup";
 import ChoosePicGroup from "../components/ChoosePicGroup/ChoosePicGroup";
 import ChooseLevelGroup from "../components/ChooseLevelGroup/ChooseLevelGroup";
+import TimerGroup6 from "../components/PuzzleGroup/TimerGroup6";
 
 function App() {
   const [userIcon, setUserIcon] = React.useState(false);
@@ -13,7 +14,7 @@ function App() {
   const [easy, setEasy] = React.useState(false);
   const [medium, setMedium] = React.useState(false);
   const [hard, setHard] = React.useState(false);
-  const [username, setUsername] = React.useState(0);
+  const [username, setUsername] = React.useState("Asmsaaa");
   return (
     <main>
       <section className="BarGroup">
@@ -49,6 +50,7 @@ function App() {
           setHard={setHard}
         />
       </section>
+      <TimerGroup6 />
       <section className="PuzzleGroup"></section>
     </main>
   );

@@ -11,9 +11,10 @@ html {
 }
 
 body {
-  font: Margarine;
+  font-family: Margarine, sans-serif;
   color: var(--darkPurple);
   background-color: var(--page);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 main {
@@ -26,164 +27,184 @@ main {
   background-color: var(--page);
 }
 
+.BarGroup {
+  width: 100%;
+}
+
+.BarGroup1 {
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 2px solid;
+  width: 80%;
+}
+
+/* Code from inspect */
+/* .BarGroup1 { */
+/* margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 42px;
+} */
+
+.logo img {
+  margin-left: 19px;
+  width: 50px;
+}
+
+.helpAndSettingsIcons {
+  display: flex;
+}
+
 .logo {
-  position: absolute;
+  font: Margarine;
   height: 86.72px;
   width: 171px;
   left: 639px;
   top: 40px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .userClick {
-  position: absolute;
-  height: 52.08px;
-  width: 54.09px;
   left: 125px;
   top: 96px;
+  display: flex;
+  align-items: center;
+}
+
+.userClick img {
+  width: 52.22px;
+  height: 52.22px;
 }
 
 .helpClick {
-  position: absolute;
-  height: 44.19px;
-  width: 52.22px;
   left: 1209.55px;
   top: 102.29px;
 }
 
-.settingsClick {
-  position: absolute;
-  height: 45.8px;
+.helpClick img {
   width: 52.22px;
+  height: 52.22px;
+}
+
+.settingsClick {
   left: 1300.78px;
   top: 102.29px;
 }
 
+.settingsClick img {
+  width: 52.22px;
+  height: 52.22px;
+}
+
 .ChooseLevel {
+
+
+  background: #e6d2aa;
   position: absolute;
-  width: 309.09px;
-  height: 44.1px;
-  left: 559.54px;
-  top: 421.11px;
-  position: absolute;
-  width: 309.09px;
-  height: 44.1px;
-  left: 559.54px;
-  top: 421.11px;
-  background: #E6D2AA;
+  width: 309px;
+  height: 59px;
+  top: 415px;
+  left: 562px;
+  font-family: "Margarine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #42032c;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+
+  /* choose level */
+
+
   position: absolute;
   width: 145.96px;
-  height: 26.93px;
-  left: 651.07px;
-  top: 429.34px;
+  height: 15.58px;
+  left: 648px;
+  top: 429.52px;
+
   font-family: 'Margarine';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
   text-align: center;
+
   color: #42032C;
+
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 .easyLevel {
-  /* 5.1 */
-  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #d36b00;
   position: absolute;
-  width: 309.09px;
-  height: 70.13px;
-  left: 100px;
-
-  top: 487.26px;
-  position: absolute;
-  width: 309.09px;
-  height: 70.13px;
-
-  left: 100px;
-  top: 487.26px;
-  background: #D36B00;
-  position: absolute;
-  width: 150px;
-  height: 35px;
-  left: 300px;
-
-  top: 500.65px;
-  font-family: 'Margarine';
+  width: 309px;
+  height: 59px;
+  left: 217px;
+  top: 483px;
+  font-family: "Margarine";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
   text-align: center;
-  color: #42032C;
+  color: #42032c;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .mediumLevel {
-  /* 5.2 */
-
-  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #d36b00;
   position: absolute;
-  width: 309.09px;
-  height: 70.13px;
-
-  left: 559.54px;
-  top: 487.26px;
-  position: absolute;
-  width: 309.09px;
-
-  height: 70.13px;
-  left: 559.54px;
-
-  top: 487.26px;
-  background: #D36B00;
-  position: absolute;
-  width: 150px;
-  height: 35px;
-  left: 645.75px;
-  top: 500.65px;
-  font-family: 'Margarine';
+  width: 309px;
+  height: 59px;
+  left: 562px;
+  top: 483px;
+  font-family: "Margarine";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
   text-align: center;
-  color: #42032C;
+  color: #42032c;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .hardLevel {
-  /* 5.3 */
-
-  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #d36b00;
   position: absolute;
-  width: 309.09px;
-  height: 70.13px;
-
-  left: 918.15px;
-  top: 487.26px;
-  position: absolute;
-  width: 309.09px;
-  height: 70.13px;
-  left: 918.15px;
-
-  top: 487.26px;
-  background: #D36B00;
-  position: absolute;
-  width: 150px;
-  height: 35px;
-  left: 1008.95px;
-  top: 500.65px;
-  font-family: 'Margarine';
+  width: 309px;
+  height: 59px;
+  left: 921px;
+  top: 483px;
+  font-family: "Margarine";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
   text-align: center;
-  color: #42032C;
+  color: #42032c;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .choosePicWithPics {
-  position: center;
   width: 1013.24px;
   height: 235.48px;
   left: 214px;
@@ -192,17 +213,17 @@ main {
 
 .ChoosePicture {
   position: absolute;
-  width: 210.84px;
-  height: 28.85px;
-  left: 608.49px;
-  top: 170.66px;
-  font-family: 'Margarine';
+  width: 309px;
+  height: 59px;
+  left: 562px;
+  top: 162px;
+  font-family: "Margarine";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
   text-align: center;
-  color: #42032C;
+  color: #42032c;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 

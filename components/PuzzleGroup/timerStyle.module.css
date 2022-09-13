@@ -1,0 +1,61 @@
+.timer {
+    /* Timer: */
+
+    font-family: 'Margarine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #42032C;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+
+}
+
+.bestTime {
+    /* Rectangle 6.1 */
+
+    position: absolute;
+    width: 219.47px;
+    height: 45.55px;
+    left: 884.51px;
+    top: 567px;
+
+    background: #E6D2AA;
+
+    /* Best time: */
+
+    position: absolute;
+    width: 219.49px;
+    height: 28.11px;
+    left: 555px;
+    top: 0px;
+
+    font-family: 'Margarine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #42032C;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+
+}
+
+.sectionTimer {
+    /* Rectangle 6.2 */
+    position: absolute;
+    width: 220.48px;
+    height: 46.41px;
+    left: 330px;
+    top: 567px;
+
+    background: #E6D2AA;
+
+}

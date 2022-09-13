@@ -1,5 +1,5 @@
 import React from "react";
-import SettingsWindow from "./SettingsWindow";
+import SettingsWindow from "../popUp/SettingsWindow";
 
 export default function SettingsInBarGroup(props) {
   const settingsIcon = props.settingsIcon;
@@ -14,6 +14,7 @@ export default function SettingsInBarGroup(props) {
           settingsClick();
         }}
       />
+      {settingsIcon && <SettingsWindow props={props} />}
     </label>
   );
 }

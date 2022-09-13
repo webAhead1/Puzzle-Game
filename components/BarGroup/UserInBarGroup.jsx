@@ -1,5 +1,5 @@
 import React from "react";
-import UserWindow from "./UserWindow";
+import UserWindow from "../popUp/UserWindow";
 
 export default function UserInBarGroup(props) {
   const userIcon = props.userIcon;
@@ -13,6 +13,7 @@ export default function UserInBarGroup(props) {
           userClick();
         }}
       />
+      {userIcon && <UserWindow props={props} />}
     </label>
   );
 }
