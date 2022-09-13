@@ -1,27 +1,14 @@
 import React from "react";
-import ReactDOM from "react-dom";
-
+import data from "./pic1/EasyLevelData";
+import "./BoardStyle.css";
 export default function Board (props) {
-    for (let j = 0; j < numOfRows; j++) {
-        const columns = [];
-  
-        for (let i = 0; i < numOfColumns; i++) {
-          const [randomX, randomY] = randomPositions[`${i}${j}`];
-          columns.push(
-            <Tile
-              key={v4()}
-              imageUrl={imageUrl}
-              x={i}
-              y={j}
-              randomX={randomX}
-              randomY={randomY}
-            />
-          );
-        }
-    }
     return (
         <div className="board">
-
+          {
+            data.map(
+              (pic) => (<div className="PicCell" key={pic}><img className="imgStyle" src={pic}></img></div>)
+            )
+          }
         </div>
     );
 }

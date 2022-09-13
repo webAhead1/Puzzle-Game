@@ -1,7 +1,9 @@
+const path = "./components/PuzzleGroup"
 const data = [
-    ['1.jpg', '2.jpg', '3.jpg'],
-    ['4.jpg', '5.jpg', '6.jpg'],
-    ['7.jpg', '8.jpg', '9.jpg']
+    
+    `${path}/pic1/1.jpg`, `${path}/pic1/2.jpg`, `${path}/pic1/3.jpg`,
+    `${path}/pic1/4.jpg`, `${path}/pic1/5.jpg`, `${path}/pic1/6.jpg`,
+    `${path}/pic1/7.jpg`, `${path}/pic1/8.jpg`, `${path}/pic1/9.jpg`
 ]
 
 export default data;
