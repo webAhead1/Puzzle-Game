@@ -86,41 +86,26 @@ main {
 }
 
 .easyLevel {
-<<<<<<< HEAD
   /* 5.1 */
   cursor: pointer;
   position: absolute;
   width: 309.09px;
   height: 70.13px;
   left: 100px;
-=======
-  position: absolute;
-  width: 309.09px;
-  height: 70px;
-  left: 213.76px;
->>>>>>> 1e15dfeed97d0623728f952de492e82abde09041
+
   top: 487.26px;
   position: absolute;
-<<<<<<< HEAD
   width: 309.09px;
   height: 70.13px;
-=======
-  width: 450px;
-  height: 80px;
->>>>>>> 1e15dfeed97d0623728f952de492e82abde09041
+
   left: 100px;
   top: 487.26px;
   background: #D36B00;
   position: absolute;
-<<<<<<< HEAD
   width: 150px;
   height: 35px;
   left: 300px;
-=======
-  width: 200px;
-  height: 35px;
-  left: 304.56px;
->>>>>>> 1e15dfeed97d0623728f952de492e82abde09041
+
   top: 500.65px;
   font-family: 'Margarine';
   font-style: normal;
@@ -133,29 +118,21 @@ main {
 }
 
 .mediumLevel {
-<<<<<<< HEAD
   /* 5.2 */
 
   cursor: pointer;
   position: absolute;
   width: 309.09px;
   height: 70.13px;
-=======
-  position: absolute;
-  width: 309.09px;
-  height: 70px;
->>>>>>> 1e15dfeed97d0623728f952de492e82abde09041
+
   left: 559.54px;
   top: 487.26px;
   position: absolute;
   width: 309.09px;
-<<<<<<< HEAD
+
   height: 70.13px;
   left: 559.54px;
-=======
-  height: 80px;
-  left: 300px;
->>>>>>> 1e15dfeed97d0623728f952de492e82abde09041
+
   top: 487.26px;
   background: #D36B00;
   position: absolute;
@@ -174,29 +151,20 @@ main {
 }
 
 .hardLevel {
-<<<<<<< HEAD
   /* 5.3 */
 
   cursor: pointer;
   position: absolute;
   width: 309.09px;
   height: 70.13px;
-=======
-  position: absolute;
-  width: 309.09px;
-  height: 70px;
->>>>>>> 1e15dfeed97d0623728f952de492e82abde09041
+
   left: 918.15px;
   top: 487.26px;
   position: absolute;
   width: 309.09px;
-<<<<<<< HEAD
   height: 70.13px;
   left: 918.15px;
-=======
-  height: 80px;
-  left: 500px;
->>>>>>> 1e15dfeed97d0623728f952de492e82abde09041
+
   top: 487.26px;
   background: #D36B00;
   position: absolute;
