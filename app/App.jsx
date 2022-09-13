@@ -3,6 +3,7 @@ import BarGroup from "../components/BarGroup/BarGroup";
 import ChoosePicGroup from "../components/ChoosePicGroup/ChoosePicGroup";
 import ChooseLevelGroup from "../components/ChooseLevelGroup/ChooseLevelGroup";
 import TimerGroup6 from "../components/PuzzleGroup/TimerGroup6";
+import Group7 from "../components/PuzzleGroup/Group7";
 
 function App() {
   const [userIcon, setUserIcon] = React.useState(false);
@@ -52,6 +53,7 @@ function App() {
       </section>
       <TimerGroup6 />
       <section className="PuzzleGroup"></section>
+      <Group7 />
     </main>
   );
 }
