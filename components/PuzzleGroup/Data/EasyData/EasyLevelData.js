@@ -10,6 +10,9 @@ export const pic1EasyData = [
   `${path}/Pic1-Easy/8.jpg`,
   `${path}/Pic1-Easy/9.jpg`,
 ];
+
+const pic1EasySolution = ["", "", ""];
+
 export const pic2EasyData = [
   `${path}/Pic2-Easy/1.jpg`,
   `${path}/Pic2-Easy/2.jpg`,
@@ -32,4 +35,3 @@ export const pic3EasyData = [
   `${path}/Pic3-Easy/8.jpg`,
   `${path}/Pic3-Easy/9.jpg`,
 ];
-

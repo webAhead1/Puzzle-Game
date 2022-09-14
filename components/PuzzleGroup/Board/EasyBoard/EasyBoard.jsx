@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   pic1EasyData,
   pic2EasyData,
@@ -6,6 +6,10 @@ import {
 } from "../../Data/EasyData/EasyLevelData.js";
 
 export function EasyBoardPic1(props) {
+  useEffect(() => {
+    props.setBoard(pic1EasyData);
+  }, []);
+
   return (
     <div>
       <div
@@ -15,9 +19,9 @@ export function EasyBoardPic1(props) {
         }}
       ></div>
       <div className="boardEasy">
-        {pic1EasyData.map((pic) => (
+        {pic1EasyData.map((pic, index) => (
           <div className="PicCellEasy" key={pic}>
-            <img className="imgStyleEasy" src={pic}></img>
+            <img className="imgStyleEasy" onClick={() => 1} src={pic}></img>
           </div>
         ))}
       </div>

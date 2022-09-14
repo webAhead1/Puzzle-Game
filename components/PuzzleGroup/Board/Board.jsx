@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./BoardStyle.css";
 import {
   EasyBoardPic1,
@@ -21,6 +21,17 @@ export default function Board(props) {
   const [choice1, setChoice1] = React.useState(null);
   const [choice2, setChoice2] = React.useState(null);
   const [board, setBoard] = React.useState([]);
+
+  useEffect(() => {
+    if (choice1 !== null && choice2 !== null) {
+      // board[choice1] = board[choice2]
+      // setBoard
+    }
+  }, [choice1, choice2]);
+
+  useEffect(() => {
+    // compare with solution with .every()
+  }, [board]);
 
   const boardProps = {
     choice1,
