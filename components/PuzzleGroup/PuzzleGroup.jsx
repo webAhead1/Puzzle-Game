@@ -1,7 +1,7 @@
 import React from "react";
 import EasyLevelPuzzle from "./Board/EasyLevelPuzzle";
-import MiddleLevelPuzzle from "./MiddleLevelPuzzle";
-import HardLevelPuzzle from "./HardLevelPuzzle";
+import MiddleLevelPuzzle from "./Board/MiddleLevelPuzzle";
+import HardLevelPuzzle from "./Board/HardLevelPuzzle";
 import EmptyBoard from "./Board/EmptyBoard";
 
 export default function PuzzleGroup(props) {
