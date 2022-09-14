@@ -1,5 +1,6 @@
 import React from "react";
 import Board from "./Board";
+import EmptyBoard from "./EmptyBoard";
 
 export default function HardLevelPuzzle(props) {
   const [level, setLevel] = React.useState(5);
