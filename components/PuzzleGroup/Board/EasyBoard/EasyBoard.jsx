@@ -3,7 +3,7 @@ import {
     pic1EasyData,
     pic2EasyData,
     pic3EasyData,
-  } from "../Board/Data/EsayData/EasyLevelData";
+  } from "../Board/Data/EasyData/EasyLevelData";
 
 
 export default function EasyBoardPic1(props){
