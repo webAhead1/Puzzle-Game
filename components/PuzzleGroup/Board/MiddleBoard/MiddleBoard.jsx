@@ -3,7 +3,7 @@ import {
   pic1MiddleData,
   pic2MiddleData,
   pic3MiddleData,
-} from "../../Data/MiddleData/MiddleLevelData";
+} from "../../Data/MiddleData/MiddleLevelData.js";
 
 function MiddleBoardPic1(props) {
   return (
@@ -62,4 +62,5 @@ function MiddleBoardPic3(props) {
     </div>
   );
 }
+
 export default { MiddleBoardPic1, MiddleBoardPic2, MiddleBoardPic3 };

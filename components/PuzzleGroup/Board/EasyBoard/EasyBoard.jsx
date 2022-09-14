@@ -3,7 +3,7 @@ import {
   pic1EasyData,
   pic2EasyData,
   pic3EasyData,
-} from "../../Data/EasyData/EasyLevelData";
+} from "../../Data/EasyData/EasyLevelData.js";
 
 function EasyBoardPic1(props) {
   return (

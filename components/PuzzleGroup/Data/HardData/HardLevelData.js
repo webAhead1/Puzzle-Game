@@ -1,5 +1,5 @@
 const path = "./components/PuzzleGroup/Pictures";
-const pic1HardData = [
+export const pic1HardData = [
   `${path}/Pic1-Hard/1.jpg`,
   `${path}/Pic1-Hard/2.jpg`,
   `${path}/Pic1-Hard/3.jpg`,
@@ -26,7 +26,7 @@ const pic1HardData = [
   `${path}/Pic1-Hard/24.jpg`,
   `${path}/Pic1-Hard/25.jpg`,
 ];
-const pic2HardData = [
+export const pic2HardData = [
   `${path}/Pic2-Hard/1.jpg`,
   `${path}/Pic2-Hard/2.jpg`,
   `${path}/Pic2-Hard/3.jpg`,
@@ -53,7 +53,7 @@ const pic2HardData = [
   `${path}/Pic2-Hard/24.jpg`,
   `${path}/Pic2-Hard/25.jpg`,
 ];
-const pic3HardData = [
+export const pic3HardData = [
   `${path}/Pic3-Hard/1.jpg`,
   `${path}/Pic3-Hard/2.jpg`,
   `${path}/Pic3-Hard/3.jpg`,
@@ -81,4 +81,4 @@ const pic3HardData = [
   `${path}/Pic3-Hard/25.jpg`,
 ];
 
-export default { pic1HardData, pic2HardData, pic3HardData };
+

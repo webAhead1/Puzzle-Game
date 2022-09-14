@@ -3,7 +3,7 @@ import {
   pic1HardData,
   pic2HardData,
   pic3HardData,
-} from "../../Data/HardData/HardLevelData";
+} from "../../Data/HardData/HardLevelData.js";
 
 function HardBoardPic1(props) {
   return (
@@ -62,4 +62,5 @@ function HardBoardPic3(props) {
     </div>
   );
 }
+
 export default { HardBoardPic1, HardBoardPic2, HardBoardPic3 };
