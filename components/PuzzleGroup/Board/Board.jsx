@@ -3,12 +3,13 @@ import "./BoardStyle.css";
 import EasyBoardPic1 from "./EasyBoard/EasyBoard";
 import EasyBoardPic2 from "./EasyBoard/EasyBoard";
 import EasyBoardPic3 from "./EasyBoard/EasyBoard";
-import HardBoardPic1 from "./HardBoard/HardBoard";
-import HardBoardPic2 from "./HardBoard/HardBoard";
-import HardBoardPic3 from "./HardBoard/HardBoard";
 import MiddleBoardPic1 from "./MiddleBoard/MiddleBoard";
 import MiddleBoardPic2 from "./MiddleBoard/MiddleBoard";
 import MiddleBoardPic3 from "./MiddleBoard/MiddleBoard";
+import HardBoardPic1 from "./HardBoard/HardBoard";
+import HardBoardPic2 from "./HardBoard/HardBoard";
+import HardBoardPic3 from "./HardBoard/HardBoard";
+
 
 export default function Board(props) {
   if (props.level == 3 && props.pic1) {
