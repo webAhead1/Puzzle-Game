@@ -1,8 +1,8 @@
 import React from "react";
-import EasyLevelPuzzle from "./EasyLevelPuzzle";
+import EasyLevelPuzzle from "./Board/EasyLevelPuzzle";
 import MiddleLevelPuzzle from "./MiddleLevelPuzzle";
 import HardLevelPuzzle from "./HardLevelPuzzle";
-import EmptyBoard from "./EmptyBoard";
+import EmptyBoard from "./Board/EmptyBoard";
 
 export default function PuzzleGroup(props) {
   const pic1 = props.pic1;
@@ -12,10 +12,10 @@ export default function PuzzleGroup(props) {
   const middle = props.middle;
   const hard = props.hard;
   if (easy) {
-    return <EasyLevelPuzzle />;
+    return <EasyLevelPuzzle pic1={pic1} pic2={pic2} pic3={pic3} />;
   } else if (middle) {
-    return <MiddleLevelPuzzle />;
+    return <MiddleLevelPuzzle pic1={pic1} pic2={pic2} pic3={pic3} />;
   } else if (hard) {
-    return <HardLevelPuzzle />;
+    return <HardLevelPuzzle pic1={pic1} pic2={pic2} pic3={pic3} />;
   } else return <EmptyBoard />;
 }

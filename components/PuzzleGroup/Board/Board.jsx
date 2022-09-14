@@ -1,8 +1,21 @@
 import React from "react";
-import easyData from "./Data/EasyLevelData";
-import middleData from "./Data/MiddleLevelData";
-import hardData from "./Data/HardLevelData";
 import "./BoardStyle.css";
+import {
+  pic1EasyData,
+  pic2EasyData,
+  pic3EasyData,
+} from "../Data/EsayData/EasyLevelData";
+import {
+  pic1MiddleData,
+  pic2MiddleData,
+  pic3MiddleData,
+} from "../Data/MiddleData/MiddleLevelData";
+import {
+  pic1HardData,
+  pic2HardData,
+  pic3HardData,
+} from "../Data/HardData/HardLevelData";
+
 export default function Board(props) {
   if (props.level == 3) {
     return (
@@ -14,7 +27,7 @@ export default function Board(props) {
           }}
         ></div>
         <div className="boardEasy">
-          {easyData.map((pic) => (
+          {pic1EasyData.map((pic) => (
             <div className="PicCellEasy" key={pic}>
               <img className="imgStyleEasy" src={pic}></img>
             </div>
@@ -32,7 +45,7 @@ export default function Board(props) {
           }}
         ></div>
         <div className="boardMiddle">
-          {middleData.map((pic) => (
+          {pic2MiddleData.map((pic) => (
             <div className="PicCellMiddle" key={pic}>
               <img className="imgStyleMiddle" src={pic}></img>
             </div>
@@ -50,7 +63,7 @@ export default function Board(props) {
           }}
         ></div>
         <div className="boardHard">
-          {hardData.map((pic) => (
+          {pic3HardData.map((pic) => (
             <div className="PicCellHard" key={pic}>
               <img className="imgStyleHard" src={pic}></img>
             </div>
