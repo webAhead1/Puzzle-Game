@@ -5,7 +5,7 @@ import {
   pic3HardData,
 } from "../../Data/HardData/HardLevelData.js";
 
-function HardBoardPic1(props) {
+export function HardBoardPic1(props) {
   return (
     <div>
       <div
@@ -43,7 +43,7 @@ export function HardBoardPic2(props) {
     </div>
   );
 }
-function HardBoardPic3(props) {
+export function HardBoardPic3(props) {
   return (
     <div>
       <div
