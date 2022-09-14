@@ -25,25 +25,24 @@ function HardBoardPic1(props){
       );
 
 }
-function HardBoardPic2(props){
-    return (
-        <div>
-          <div
-            className="backgroundBoard"
-            style={{
-              backgroundColor: "#D36B00",
-            }}
-          ></div>
-          <div className="boardHard">
-            {pic2HardData.map((pic) => (
-              <div className="PicCellHard" key={pic}>
-                <img className="imgStyleHard" src={pic}></img>
-              </div>
-            ))}
+export function HardBoardPic2(props) {
+  return (
+    <div>
+      <div
+        className="backgroundBoard"
+        style={{
+          backgroundColor: "#D36B00",
+        }}
+      ></div>
+      <div className="boardHard">
+        {pic2HardData.map((pic) => (
+          <div className="PicCellHard" key={pic}>
+            <img className="imgStyleHard" src={pic}></img>
           </div>
-        </div>
-      );
-
+        ))}
+      </div>
+    </div>
+  );
 }
 function HardBoardPic3(props){
     return (
@@ -64,5 +63,3 @@ function HardBoardPic3(props){
         </div>
       );
 }
-
-export default {HardBoardPic1, HardBoardPic2, HardBoardPic3};
