@@ -13,7 +13,7 @@ function App() {
   const [pic2, setPic2] = React.useState(false);
   const [pic3, setPic3] = React.useState(false);
   const [easy, setEasy] = React.useState(false);
-  const [medium, setMedium] = React.useState(false);
+  const [middle, setMiddle] = React.useState(false);
   const [hard, setHard] = React.useState(false);
   const [username, setUsername] = React.useState("Asmsaaa");
   return (
@@ -45,17 +45,23 @@ function App() {
         <ChooseLevelGroup
           easy={easy}
           setEasy={setEasy}
-          medium={medium}
-          setMedium={setMedium}
+          middle={middle}
+          setMiddle={setMiddle}
           hard={hard}
           setHard={setHard}
         />
       </section>
       <TimerGroup6 />
       <section className="PuzzleGroup">
-        <PuzzleGroup/>
+        <PuzzleGroup
+          pic1={pic1}
+          pic2={pic2}
+          pic3={pic3}
+          easy={easy}
+          middle={middle}
+          hard={hard}
+        />
       </section>
-
     </main>
   );
 }

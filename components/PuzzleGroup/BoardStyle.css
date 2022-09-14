@@ -1,18 +1,51 @@
-.board{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    width: 900px;
-    height: 900px;
-    margin-left: 300px;
-    margin-top: 340px;
+.backgroundBoard {
+  position: absolute;
+  height: 580px;
+  width: 580px;
+  left: 431px;
+  top: 638.41px;
+}
+.board {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 480px;
+  height: 480px;
+  margin-left: 481px;
+  margin-top: 450px;
+  z-index: 4;
 }
 
-.PicCell{
-    width: 300px;
-    height: 300px;
+.PicCellEasy {
+  width: 160px;
+  height: 160px;
+  z-index: 4;
 }
 
-.imgStyle{
-    width: 300px;
-    height: 300px;
+.imgStyleEasy {
+  width: 160px;
+  height: 160px;
+  border: 0.1em solid;
+  z-index: 4;
+}
+.PicCellMiddle {
+  width: 120px;
+  height: 120px;
+  z-index: 4;
+}
+.imgStyleMiddle {
+  width: 120px;
+  height: 120px;
+  border: 0.1em solid;
+  z-index: 4;
+}
+.PicCellHard {
+  width: 96px;
+  height: 96px;
+  z-index: 4;
+}
+.imgStyleHard {
+  width: 96px;
+  height: 96px;
+  border: 0.1em solid;
+  z-index: 4;
 }

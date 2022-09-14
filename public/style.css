@@ -41,14 +41,6 @@ main {
   width: 80%;
 }
 
-/* Code from inspect */
-/* .BarGroup1 { */
-/* margin-top: 40px;
-  display: flex;
-  justify-content: space-evenly;
-  margin-left: 42px;
-} */
-
 .logo img {
   margin-left: 19px;
   width: 50px;
@@ -114,26 +106,6 @@ main {
   text-align: center;
   color: #42032c;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-  /* choose level */
-
-  position: absolute;
-  width: 145.96px;
-  height: 15.58px;
-  left: 648px;
-  top: 429.52px;
-
-  font-family: 'Margarine';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 32px;
-  text-align: center;
-
-  color: #42032C;
-
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-
 }
 
 .easyLevel {
@@ -157,7 +129,7 @@ main {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.mediumLevel {
+.middleLevel {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -200,7 +172,8 @@ main {
 }
 
 .choosePicWithPics {
-  width: 1013.24px;
+  width: 100%;
+  /* width: 1013.24px; */
   height: 235.48px;
   left: 214px;
   top: 162px;
@@ -225,9 +198,9 @@ main {
 .pic1 {
   position: absolute;
   height: 146.6px;
-  width: 280.32px;
-  left: 227.15px;
-  top: 239.94px;
+  width: 146.6px;
+  left: 295px;
+  top: 240px;
 }
 
 .backgroundPic1 {
@@ -241,9 +214,9 @@ main {
 .pic2 {
   position: absolute;
   height: 146.6px;
-  width: 281.12px;
-  left: 572.78px;
-  top: 239.94px;
+  width: 146.6px;
+  left: 641px;
+  top: 240px;
 }
 
 .backgroundPic2 {
@@ -257,9 +230,9 @@ main {
 .pic3 {
   position: absolute;
   height: 146.6px;
-  width: 281.12px;
-  left: 932.69px;
-  top: 239.94px;
+  width: 146.6px;
+  left: 1000px;
+  top: 240px;
 }
 
 .backgroundPic3 {

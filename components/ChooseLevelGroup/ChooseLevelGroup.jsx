@@ -3,28 +3,28 @@ import React from "react";
 export default function ChooseLevelGroup(props) {
   const easy = props.easy;
   const setEasy = props.setEasy;
-  const medium = props.medium;
-  const setMedium = props.setMedium;
+  const middle = props.middle;
+  const setMiddle = props.setMiddle;
   const hard = props.hard;
   const setHard = props.setHard;
 
   // const [isEasyActive, setIsEastActive] = React.useState(false);
-  // const [isMediumActive, setIsMediumtActive] = React.useState(false);
+  // const [isMiddleActive, setIsMiddletActive] = React.useState(false);
   // const [isHardActive, setIsHardActive] = React.useState(false);
 
   const handleEasyClick = () => {
     setEasy(!easy);
-    setMedium(false);
+    setMiddle(false);
     setHard(false);
   };
-  const handleMediumClick = () => {
+  const handleMiddleClick = () => {
     setEasy(false);
-    setMedium(!medium);
+    setMiddle(!middle);
     setHard(false);
   };
   const handleHardClick = () => {
     setEasy(false);
-    setMedium(false);
+    setMiddle(false);
     setHard(!hard);
   };
 
@@ -32,9 +32,9 @@ export default function ChooseLevelGroup(props) {
     backgroundColor: easy ? "#42032C" : null,
     color: easy ? "#D36B00" : null,
   };
-  const divMediumStyle = {
-    backgroundColor: medium ? "#42032C" : null,
-    color: medium ? "#D36B00" : null,
+  const divMiddleStyle = {
+    backgroundColor: middle ? "#42032C" : null,
+    color: middle ? "#D36B00" : null,
   };
   const divHardStyle = {
     backgroundColor: hard ? "#42032C" : null,
@@ -54,11 +54,11 @@ export default function ChooseLevelGroup(props) {
         </div>
 
         <div
-          className="mediumLevel"
-          style={divMediumStyle}
-          onClick={handleMediumClick}
+          className="middleLevel"
+          style={divMiddleStyle}
+          onClick={handleMiddleClick}
         >
-          Medium
+          Middle
         </div>
 
         <div
