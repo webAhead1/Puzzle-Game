@@ -1,0 +1,30 @@
+const path = "./components/PuzzleGroup/Pictures";
+const hardData = [
+  `${path}/Pic3-Hard/1.jpg`,
+  `${path}/Pic3-Hard/2.jpg`,
+  `${path}/Pic3-Hard/3.jpg`,
+  `${path}/Pic3-Hard/4.jpg`,
+  `${path}/Pic3-Hard/5.jpg`,
+  `${path}/Pic3-Hard/6.jpg`,
+  `${path}/Pic3-Hard/7.jpg`,
+  `${path}/Pic3-Hard/8.jpg`,
+  `${path}/Pic3-Hard/9.jpg`,
+  `${path}/Pic3-Hard/10.jpg`,
+  `${path}/Pic3-Hard/11.jpg`,
+  `${path}/Pic3-Hard/12.jpg`,
+  `${path}/Pic3-Hard/13.jpg`,
+  `${path}/Pic3-Hard/14.jpg`,
+  `${path}/Pic3-Hard/15.jpg`,
+  `${path}/Pic3-Hard/16.jpg`,
+  `${path}/Pic3-Hard/17.jpg`,
+  `${path}/Pic3-Hard/18.jpg`,
+  `${path}/Pic3-Hard/19.jpg`,
+  `${path}/Pic3-Hard/20.jpg`,
+  `${path}/Pic3-Hard/21.jpg`,
+  `${path}/Pic3-Hard/22.jpg`,
+  `${path}/Pic3-Hard/23.jpg`,
+  `${path}/Pic3-Hard/24.jpg`,
+  `${path}/Pic3-Hard/25.jpg`,
+];
+
+export default hardData;
