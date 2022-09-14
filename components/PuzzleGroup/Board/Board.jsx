@@ -9,7 +9,7 @@ import MiddleBoardPic3 from "./MiddleBoard/MiddleBoard";
 import HardBoardPic1 from "./HardBoard/HardBoard";
 import HardBoardPic2 from "./HardBoard/HardBoard";
 import HardBoardPic3 from "./HardBoard/HardBoard";
-
+import EmptyBoard from "./EmptyBoard";
 
 export default function Board(props) {
   if (props.level == 3 && props.pic1) {
@@ -30,5 +30,5 @@ export default function Board(props) {
     return <HardBoardPic2 />;
   } else if (props.level == 5 && props.pic3) {
     return <HardBoardPic3 />;
-  }
+  } else return <EmptyBoard/>;
 }

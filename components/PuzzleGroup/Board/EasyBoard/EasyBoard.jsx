@@ -3,9 +3,9 @@ import {
     pic1EasyData,
     pic2EasyData,
     pic3EasyData,
-  } from "../Board/Data/EasyData/EasyLevelData";
+  } from "../../Data/EasyData/EasyLevelData.js";
 
-export default function EasyBoardPic1(props){
+function EasyBoardPic1(props){
     return (
         <div>
           <div
@@ -24,7 +24,7 @@ export default function EasyBoardPic1(props){
         </div>
       );
 }
-export default function EasyBoardPic2(props){
+function EasyBoardPic2(props){
     return (
         <div>
           <div
@@ -44,7 +44,7 @@ export default function EasyBoardPic2(props){
       );
     
 }
-export default function EasyBoardPic3(props){
+function EasyBoardPic3(props){
     return (
         <div>
           <div
@@ -63,3 +63,4 @@ export default function EasyBoardPic3(props){
         </div>
       );
 }
+export default {EasyBoardPic1, EasyBoardPic2, EasyBoardPic3};
