@@ -24,7 +24,7 @@ function HardBoardPic1(props) {
     </div>
   );
 }
-function HardBoardPic2(props) {
+export function HardBoardPic2(props) {
   return (
     <div>
       <div
@@ -62,5 +62,8 @@ function HardBoardPic3(props) {
     </div>
   );
 }
+<<<<<<< HEAD
 
 export default { HardBoardPic1, HardBoardPic2, HardBoardPic3 };
+=======
+>>>>>>> 9e12c053529afadfb0c01f2da996162d397a84fd
