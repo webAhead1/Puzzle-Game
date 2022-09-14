@@ -13,7 +13,7 @@ export default function Board(props) {
             backgroundColor: "#D36B00",
           }}
         ></div>
-        <div className="board">
+        <div className="boardEasy">
           {easyData.map((pic) => (
             <div className="PicCellEasy" key={pic}>
               <img className="imgStyleEasy" src={pic}></img>
@@ -31,7 +31,7 @@ export default function Board(props) {
             backgroundColor: "#D36B00",
           }}
         ></div>
-        <div className="board">
+        <div className="boardMiddle">
           {middleData.map((pic) => (
             <div className="PicCellMiddle" key={pic}>
               <img className="imgStyleMiddle" src={pic}></img>
@@ -49,7 +49,7 @@ export default function Board(props) {
             backgroundColor: "#D36B00",
           }}
         ></div>
-        <div className="board">
+        <div className="boardHard">
           {hardData.map((pic) => (
             <div className="PicCellHard" key={pic}>
               <img className="imgStyleHard" src={pic}></img>

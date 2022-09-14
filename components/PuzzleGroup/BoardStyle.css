@@ -5,7 +5,7 @@
   left: 431px;
   top: 638.41px;
 }
-.board {
+.boardEasy {
   display: grid;
   grid-template-columns: auto auto auto;
   width: 480px;
@@ -27,6 +27,17 @@
   border: 0.1em solid;
   z-index: 4;
 }
+
+.boardMiddle {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 480px;
+  height: 480px;
+  margin-left: 481px;
+  margin-top: 450px;
+  z-index: 4;
+}
+
 .PicCellMiddle {
   width: 120px;
   height: 120px;
@@ -38,6 +49,17 @@
   border: 0.1em solid;
   z-index: 4;
 }
+
+.boardHard {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  width: 480px;
+  height: 480px;
+  margin-left: 481px;
+  margin-top: 450px;
+  z-index: 4;
+}
+
 .PicCellHard {
   width: 96px;
   height: 96px;
