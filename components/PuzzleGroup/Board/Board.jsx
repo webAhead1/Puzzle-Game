@@ -30,5 +30,5 @@ export default function Board(props) {
     return <HardBoardPic2 />;
   } else if (props.level == 5 && props.pic3) {
     return <HardBoardPic3 />;
-  } else return <EmptyBoard/>;
+  } else return <EmptyBoard />;
 }
