@@ -1,10 +1,8 @@
 import React from "react";
 import "./BoardStyle.css";
-import {
-  pic1EasyData,
-  pic2EasyData,
-  pic3EasyData,
-} from "../Data/EsayData/EasyLevelData";
+import EasyBoardPic1 from "./EasyBoard/EasyBoard";
+import EasyBoardPic2 from "./EasyBoard/EasyBoard";
+import EasyBoardPic3 from "./EasyBoard/EasyBoard";
 import {
   pic1MiddleData,
   pic2MiddleData,
@@ -17,24 +15,12 @@ import {
 } from "../Data/HardData/HardLevelData";
 
 export default function Board(props) {
-  if (props.level == 3) {
-    return (
-      <div>
-        <div
-          className="backgroundBoard"
-          style={{
-            backgroundColor: "#D36B00",
-          }}
-        ></div>
-        <div className="boardEasy">
-          {pic1EasyData.map((pic) => (
-            <div className="PicCellEasy" key={pic}>
-              <img className="imgStyleEasy" src={pic}></img>
-            </div>
-          ))}
-        </div>
-      </div>
-    );
+  if (props.level == 3 && props.pic1) {
+    return <EasyBoardPic1 />;
+  } else if (props.level == 3 && props.pic2) {
+    return <EasyBoardPic2 />;
+  } else if (props.level == 3 && props.pic3) {
+    return <EasyBoardPic3 />;
   } else if (props.level == 4) {
     return (
       <div>
