@@ -3,11 +3,9 @@ import "./BoardStyle.css";
 import EasyBoardPic1 from "./EasyBoard/EasyBoard";
 import EasyBoardPic2 from "./EasyBoard/EasyBoard";
 import EasyBoardPic3 from "./EasyBoard/EasyBoard";
-import {
-  pic1MiddleData,
-  pic2MiddleData,
-  pic3MiddleData,
-} from "../Data/MiddleData/MiddleLevelData";
+import MiddleBoardPic1 from "./MiddleBoard/MiddleBoard";
+import MiddleBoardPic2 from "./MiddleBoard/MiddleBoard";
+import MiddleBoardPic3 from "./MiddleBoard/MiddleBoard";
 import {
   pic1HardData,
   pic2HardData,
@@ -21,25 +19,15 @@ export default function Board(props) {
     return <EasyBoardPic2 />;
   } else if (props.level == 3 && props.pic3) {
     return <EasyBoardPic3 />;
-  } else if (props.level == 4) {
-    return (
-      <div>
-        <div
-          className="backgroundBoard"
-          style={{
-            backgroundColor: "#D36B00",
-          }}
-        ></div>
-        <div className="boardMiddle">
-          {pic2MiddleData.map((pic) => (
-            <div className="PicCellMiddle" key={pic}>
-              <img className="imgStyleMiddle" src={pic}></img>
-            </div>
-          ))}
-        </div>
-      </div>
-    );
-  } else if (props.level == 5) {
+  } 
+  else if (props.level == 4 && props.pic1) {
+    return <MiddleBoardPic1 />;
+  } else if (props.level == 4 && props.pic2) {
+    return <MiddleBoardPic2 />;
+  }  else if (props.level == 4 && props.pic3) {
+      return <MiddleBoardPic3 />;
+  } 
+  else if (props.level == 5) {
     return (
       <div>
         <div
