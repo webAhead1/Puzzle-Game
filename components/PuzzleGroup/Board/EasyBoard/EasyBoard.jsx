@@ -5,7 +5,6 @@ import {
     pic3EasyData,
   } from "../Board/Data/EasyData/EasyLevelData";
 
-
 export default function EasyBoardPic1(props){
     return (
         <div>
