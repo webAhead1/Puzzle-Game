@@ -17,6 +17,26 @@ export const pic1MiddleData = [
   `${path}/Pic1-Middle/15.jpg`,
   `${path}/Pic1-Middle/16.jpg`,
 ];
+
+export const pic1MiddleSolution = [
+  `${path}/Pic1-Middle/16.jpg`,
+  `${path}/Pic1-Middle/15.jpg`,
+  `${path}/Pic1-Middle/14.jpg`,
+  `${path}/Pic1-Middle/13.jpg`,
+  `${path}/Pic1-Middle/12.jpg`,
+  `${path}/Pic1-Middle/11.jpg`,
+  `${path}/Pic1-Middle/10.jpg`,
+  `${path}/Pic1-Middle/9.jpg`,
+  `${path}/Pic1-Middle/8.jpg`,
+  `${path}/Pic1-Middle/7.jpg`,
+  `${path}/Pic1-Middle/6.jpg`,
+  `${path}/Pic1-Middle/5.jpg`,
+  `${path}/Pic1-Middle/4.jpg`,
+  `${path}/Pic1-Middle/3.jpg`,
+  `${path}/Pic1-Middle/2.jpg`,
+  `${path}/Pic1-Middle/1.jpg`,
+];
+
 export const pic2MiddleData = [
   `${path}/Pic2-Middle/1.jpg`,
   `${path}/Pic2-Middle/2.jpg`,
@@ -34,6 +54,25 @@ export const pic2MiddleData = [
   `${path}/Pic2-Middle/14.jpg`,
   `${path}/Pic2-Middle/15.jpg`,
   `${path}/Pic2-Middle/16.jpg`,
+];
+
+export const pic2MiddleSolution = [
+  `${path}/Pic2-Middle/16.jpg`,
+  `${path}/Pic2-Middle/15.jpg`,
+  `${path}/Pic2-Middle/14.jpg`,
+  `${path}/Pic2-Middle/13.jpg`,
+  `${path}/Pic2-Middle/12.jpg`,
+  `${path}/Pic2-Middle/11.jpg`,
+  `${path}/Pic2-Middle/10.jpg`,
+  `${path}/Pic2-Middle/9.jpg`,
+  `${path}/Pic2-Middle/8.jpg`,
+  `${path}/Pic2-Middle/7.jpg`,
+  `${path}/Pic2-Middle/6.jpg`,
+  `${path}/Pic2-Middle/5.jpg`,
+  `${path}/Pic2-Middle/4.jpg`,
+  `${path}/Pic2-Middle/3.jpg`,
+  `${path}/Pic2-Middle/2.jpg`,
+  `${path}/Pic2-Middle/1.jpg`,
 ];
 
 export const pic3MiddleData = [
@@ -55,4 +94,21 @@ export const pic3MiddleData = [
   `${path}/Pic3-Middle/16.jpg`,
 ];
 
-
+export const pic3MiddleSolution = [
+  `${path}/Pic3-Middle/16.jpg`,
+  `${path}/Pic3-Middle/15.jpg`,
+  `${path}/Pic3-Middle/14.jpg`,
+  `${path}/Pic3-Middle/13.jpg`,
+  `${path}/Pic3-Middle/12.jpg`,
+  `${path}/Pic3-Middle/11.jpg`,
+  `${path}/Pic3-Middle/10.jpg`,
+  `${path}/Pic3-Middle/9.jpg`,
+  `${path}/Pic3-Middle/8.jpg`,
+  `${path}/Pic3-Middle/7.jpg`,
+  `${path}/Pic3-Middle/6.jpg`,
+  `${path}/Pic3-Middle/5.jpg`,
+  `${path}/Pic3-Middle/4.jpg`,
+  `${path}/Pic3-Middle/3.jpg`,
+  `${path}/Pic3-Middle/2.jpg`,
+  `${path}/Pic3-Middle/1.jpg`,
+];
