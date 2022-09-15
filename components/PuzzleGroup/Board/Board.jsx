@@ -23,6 +23,8 @@ export default function Board(props) {
   const [choice2, setChoice2] = React.useState(null);
   const [board, setBoard] = React.useState([]);
   const [done, setDone] = React.useState(false);
+
+  
   useEffect(()=> {
     return <div className="done">You win the game</div>
   },[done])
