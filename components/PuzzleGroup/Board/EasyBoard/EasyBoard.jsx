@@ -5,15 +5,11 @@ import {
   pic3EasyData,
 } from "../../Data/EasyData/EasyLevelData.js";
 
-<<<<<<< HEAD
-function EasyBoardPic1(props) {
-=======
 export function EasyBoardPic1(props) {
   useEffect(() => {
     props.setBoard(pic1EasyData);
   }, []);
 
->>>>>>> 01beba6dec4675d7a8c13064a1d77ae30093d9d7
   return (
     <div>
       <div
@@ -33,6 +29,9 @@ export function EasyBoardPic1(props) {
   );
 }
 export function EasyBoardPic2(props) {
+  useEffect(() => {
+    props.setBoard(pic2EasyData);
+  }, []);
   return (
     <div>
       <div
@@ -52,6 +51,10 @@ export function EasyBoardPic2(props) {
   );
 }
 export function EasyBoardPic3(props) {
+  useEffect(() => {
+    props.setBoard(pic3EasyData);
+  }, []);
+
   return (
     <div>
       <div

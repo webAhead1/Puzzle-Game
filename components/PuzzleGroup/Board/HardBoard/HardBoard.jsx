@@ -6,6 +6,9 @@ import {
 } from "../../Data/HardData/HardLevelData.js";
 
 export function HardBoardPic1(props) {
+  useEffect(() => {
+    props.setBoard(pic1HardData);
+  }, []);
   return (
     <div>
       <div
@@ -25,6 +28,9 @@ export function HardBoardPic1(props) {
   );
 }
 export function HardBoardPic2(props) {
+  useEffect(() => {
+    props.setBoard(pic2HardData);
+  }, []);
   return (
     <div>
       <div
@@ -44,6 +50,9 @@ export function HardBoardPic2(props) {
   );
 }
 export function HardBoardPic3(props) {
+  useEffect(() => {
+    props.setBoard(pic3HardData);
+  }, []);
   return (
     <div>
       <div

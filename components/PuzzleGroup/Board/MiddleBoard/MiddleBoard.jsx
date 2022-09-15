@@ -6,6 +6,9 @@ import {
 } from "../../Data/MiddleData/MiddleLevelData.js";
 
 export function MiddleBoardPic1(props) {
+  useEffect(() => {
+    props.setBoard(pic2MiddleData);
+  }, []);
   return (
     <div>
       <div
@@ -25,6 +28,9 @@ export function MiddleBoardPic1(props) {
   );
 }
 export function MiddleBoardPic2(props) {
+  useEffect(() => {
+    props.setBoard(pic3MiddleData);
+  }, []);
   return (
     <div>
       <div
@@ -44,6 +50,9 @@ export function MiddleBoardPic2(props) {
   );
 }
 export function MiddleBoardPic3(props) {
+  useEffect(() => {
+    props.setBoard(pic1MiddleData);
+  }, []);
   return (
     <div>
       <div
