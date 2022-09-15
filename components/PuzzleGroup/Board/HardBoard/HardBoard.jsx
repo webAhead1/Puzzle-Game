@@ -10,7 +10,7 @@ import {
   pic1HardSolution,
   pic2HardSolution,
   pic3HardSolution,
-} from "../Data/HardData/HardLevelData";
+} from "../../Data/HardData/HardLevelData";
 
 export function HardBoardPic1(props) {
   const choice1 = props.choice1;
@@ -23,12 +23,13 @@ export function HardBoardPic1(props) {
   const setDone = props.setDone;
 
   useEffect(() => {
-    if (board.every(pic1HardSolution)) setDone(true);
+    if (pic1HardData.every(() => pic1HardSolution === pic1HardData))
+      setDone(true);
     // compare with solution with .every()
   }, [board]);
 
   useEffect(() => {
-    props.setBoard(pic1HardData);
+    setBoard(pic1HardData);
   }, []);
 
   return (
@@ -67,12 +68,13 @@ export function HardBoardPic2(props) {
   const setDone = props.setDone;
 
   useEffect(() => {
-    if (board.every(pic2HardSolution)) setDone(true);
+    if (pic2HardData.every(() => pic2HardSolution === pic2HardData))
+      setDone(true);
     // compare with solution with .every()
   }, [board]);
 
   useEffect(() => {
-    props.setBoard(pic2HardData);
+    setBoard(pic2HardData);
   }, []);
 
   return (
@@ -111,12 +113,13 @@ export function HardBoardPic3(props) {
   const setDone = props.setDone;
 
   useEffect(() => {
-    if (board.every(pic3HardSolution)) setDone(true);
+    if (pic3HardData.every(() => pic3HardSolution === pic3HardData))
+      setDone(true);
     // compare with solution with .every()
   }, [board]);
 
   useEffect(() => {
-    props.setBoard(pic3HardData);
+    setBoard(pic3HardData);
   }, []);
 
   return (
