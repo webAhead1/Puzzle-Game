@@ -19,18 +19,14 @@ export function EasyBoardPic1(props) {
   const setChoice2 = props.setChoice2;
   const board = props.board;
   const setBoard = props.setBoard;
-  const done = props.done;
-  const setDone = props.setDone;
-
-  useEffect(() => {
-    if (pic1EasyData.every(() => pic1EasySolution === pic1EasyData))
-      setDone(true);
-    // compare with solution with .every()
-  }, [board]);
+  const setBoardSolution = props.setBoardSolution;
 
   useEffect(() => {
     setBoard(pic1EasyData);
+    setBoardSolution(pic1EasySolution);
   }, []);
+
+  console.log({ board });
 
   return (
     <div>
@@ -41,22 +37,26 @@ export function EasyBoardPic1(props) {
         }}
       ></div>
       <div className="boardEasy">
-        {pic1EasyData.map((pic, index) => (
-          <div className="PicCellEasy" key={pic}>
+        {board.map((pic, index) => (
+          <div className="PicCellEasy" key={index}>
             <img
               className="imgStyleEasy"
               onClick={() => {
-                choice1 ? null : setChoice1(index);
-                choice2 ? null : setChoice2(index);
+                if (choice1 === null) {
+                  setChoice1(index);
+                } else if (choice2 === null) {
+                  setChoice2(index);
+                }
               }}
               src={pic}
-            ></img>
+            />
           </div>
         ))}
       </div>
     </div>
   );
 }
+
 export function EasyBoardPic2(props) {
   const choice1 = props.choice1;
   const setChoice1 = props.setChoice1;
@@ -64,18 +64,14 @@ export function EasyBoardPic2(props) {
   const setChoice2 = props.setChoice2;
   const board = props.board;
   const setBoard = props.setBoard;
-  const done = props.done;
-  const setDone = props.setDone;
-
-  useEffect(() => {
-    if (pic2EasyData.every(() => pic2EasySolution === pic2EasyData))
-      setDone(true);
-    // compare with solution with .every()
-  }, [board]);
+  const setBoardSolution = props.setBoardSolution;
 
   useEffect(() => {
     setBoard(pic2EasyData);
+    setBoardSolution(pic2EasySolution);
   }, []);
+
+  console.log({ board });
 
   return (
     <div>
@@ -91,8 +87,11 @@ export function EasyBoardPic2(props) {
             <img
               className="imgStyleEasy"
               onClick={() => {
-                choice1 ? null : setChoice1(index);
-                choice2 ? null : setChoice2(index);
+                if (choice1 === null) {
+                  setChoice1(index);
+                } else if (choice2 === null) {
+                  setChoice2(index);
+                }
               }}
               src={pic}
             ></img>
@@ -102,6 +101,7 @@ export function EasyBoardPic2(props) {
     </div>
   );
 }
+
 export function EasyBoardPic3(props) {
   const choice1 = props.choice1;
   const setChoice1 = props.setChoice1;
@@ -109,18 +109,14 @@ export function EasyBoardPic3(props) {
   const setChoice2 = props.setChoice2;
   const board = props.board;
   const setBoard = props.setBoard;
-  const done = props.done;
-  const setDone = props.setDone;
-
-  useEffect(() => {
-    if (pic3EasyData.every(() => pic3EasySolution === pic3EasyData))
-      setDone(true);
-    // compare with solution with .every()
-  }, [board]);
+  const setBoardSolution = props.setBoardSolution;
 
   useEffect(() => {
     setBoard(pic3EasyData);
+    setBoardSolution(pic3EasySolution);
   }, []);
+
+  console.log({ board });
 
   return (
     <div>
@@ -136,8 +132,11 @@ export function EasyBoardPic3(props) {
             <img
               className="imgStyleEasy"
               onClick={() => {
-                choice1 ? null : setChoice1(index);
-                choice2 ? null : setChoice2(index);
+                if (choice1 === null) {
+                  setChoice1(index);
+                } else if (choice2 === null) {
+                  setChoice2(index);
+                }
               }}
               src={pic}
             ></img>

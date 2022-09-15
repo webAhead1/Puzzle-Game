@@ -19,18 +19,14 @@ export function MiddleBoardPic1(props) {
   const setChoice2 = props.setChoice2;
   const board = props.board;
   const setBoard = props.setBoard;
-  const done = props.done;
-  const setDone = props.setDone;
-
-  useEffect(() => {
-    if (pic1MiddleData.every(() => pic1MiddleSolution === pic1MiddleData))
-      setDone(true);
-    // compare with solution with .every()
-  }, [board]);
+  const setBoardSolution = props.setBoardSolution;
 
   useEffect(() => {
     setBoard(pic1MiddleData);
+    setBoardSolution(pic1MiddleSolution);
   }, []);
+
+  console.log({ board });
 
   return (
     <div>
@@ -41,22 +37,26 @@ export function MiddleBoardPic1(props) {
         }}
       ></div>
       <div className="boardMiddle">
-        {pic1MiddleData.map((pic, index) => (
-          <div className="PicCellMiddle" key={pic}>
+        {board.map((pic, index) => (
+          <div className="PicCellMiddle" key={index}>
             <img
               className="imgStyleMiddle"
               onClick={() => {
-                choice1 ? null : setChoice1(index);
-                choice2 ? null : setChoice2(index);
+                if (choice1 === null) {
+                  setChoice1(index);
+                } else if (choice2 === null) {
+                  setChoice2(index);
+                }
               }}
               src={pic}
-            ></img>
+            />
           </div>
         ))}
       </div>
     </div>
   );
 }
+
 export function MiddleBoardPic2(props) {
   const choice1 = props.choice1;
   const setChoice1 = props.setChoice1;
@@ -64,18 +64,14 @@ export function MiddleBoardPic2(props) {
   const setChoice2 = props.setChoice2;
   const board = props.board;
   const setBoard = props.setBoard;
-  const done = props.done;
-  const setDone = props.setDone;
-
-  useEffect(() => {
-    if (pic2MiddleData.every(() => pic2MiddleSolution === pic2MiddleData))
-      setDone(true);
-    // compare with solution with .every()
-  }, [board]);
+  const setBoardSolution = props.setBoardSolution;
 
   useEffect(() => {
     setBoard(pic2MiddleData);
+    setBoardSolution(pic2MiddleSolution);
   }, []);
+
+  console.log({ board });
 
   return (
     <div>
@@ -91,8 +87,11 @@ export function MiddleBoardPic2(props) {
             <img
               className="imgStyleMiddle"
               onClick={() => {
-                choice1 ? null : setChoice1(index);
-                choice2 ? null : setChoice2(index);
+                if (choice1 === null) {
+                  setChoice1(index);
+                } else if (choice2 === null) {
+                  setChoice2(index);
+                }
               }}
               src={pic}
             ></img>
@@ -102,6 +101,7 @@ export function MiddleBoardPic2(props) {
     </div>
   );
 }
+
 export function MiddleBoardPic3(props) {
   const choice1 = props.choice1;
   const setChoice1 = props.setChoice1;
@@ -109,18 +109,14 @@ export function MiddleBoardPic3(props) {
   const setChoice2 = props.setChoice2;
   const board = props.board;
   const setBoard = props.setBoard;
-  const done = props.done;
-  const setDone = props.setDone;
-
-  useEffect(() => {
-    if (pic3MiddleData.every(() => pic3MiddleSolution === pic3MiddleData))
-      setDone(true);
-    // compare with solution with .every()
-  }, [board]);
+  const setBoardSolution = props.setBoardSolution;
 
   useEffect(() => {
     setBoard(pic3MiddleData);
+    setBoardSolution(pic3MiddleSolution);
   }, []);
+
+  console.log({ board });
 
   return (
     <div>
@@ -136,8 +132,11 @@ export function MiddleBoardPic3(props) {
             <img
               className="imgStyleMiddle"
               onClick={() => {
-                choice1 ? null : setChoice1(index);
-                choice2 ? null : setChoice2(index);
+                if (choice1 === null) {
+                  setChoice1(index);
+                } else if (choice2 === null) {
+                  setChoice2(index);
+                }
               }}
               src={pic}
             ></img>
@@ -147,3 +146,4 @@ export function MiddleBoardPic3(props) {
     </div>
   );
 }
+export default { MiddleBoardPic1, MiddleBoardPic2, MiddleBoardPic3 };

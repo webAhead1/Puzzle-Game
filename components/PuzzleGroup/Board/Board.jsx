@@ -22,23 +22,36 @@ export default function Board(props) {
   const [choice1, setChoice1] = React.useState(null);
   const [choice2, setChoice2] = React.useState(null);
   const [board, setBoard] = React.useState([]);
+  const [boardSolution, setBoardSolution] = React.useState([]);
   const [done, setDone] = React.useState(false);
+
   useEffect(() => {
-    return <div className="done">You win the game</div>;
+    if (done) {
+      alert("DONEEEEE");
+    }
   }, [done]);
-  // hiiiiiiii
+
   useEffect(() => {
     if (choice1 !== null && choice2 !== null) {
-      const temp1 = choice1;
-      // setBoard(choice1) = board[choice2];
-      // setBoard(choice2) = board[temp1];
-      board[choice2] = setBoard(choice1);
-      board[temp1] = setBoard(choice2);
+      const newBoard = [...board];
+      newBoard[choice1] = board[choice2];
+      newBoard[choice2] = board[choice1];
 
-      // board[choice1] = board[choice2]
-      // setBoard
+      setBoard(newBoard);
+      setChoice1(null);
+      setChoice2(null);
     }
   }, [choice1, choice2]);
+
+  useEffect(() => {
+    console.log(1, { board });
+    if (
+      board.length &&
+      board.every((img, index) => img === boardSolution[index])
+    ) {
+      setDone(true);
+    }
+  }, [board, boardSolution]);
 
   const boardProps = {
     choice1,
@@ -49,6 +62,7 @@ export default function Board(props) {
     setBoard,
     done,
     setDone,
+    setBoardSolution,
   };
 
   if (props.level == 3 && props.pic1) {

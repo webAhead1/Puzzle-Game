@@ -19,18 +19,14 @@ export function HardBoardPic1(props) {
   const setChoice2 = props.setChoice2;
   const board = props.board;
   const setBoard = props.setBoard;
-  const done = props.done;
-  const setDone = props.setDone;
-
-  useEffect(() => {
-    if (pic1HardData.every(() => pic1HardSolution === pic1HardData))
-      setDone(true);
-    // compare with solution with .every()
-  }, [board]);
+  const setBoardSolution = props.setBoardSolution;
 
   useEffect(() => {
     setBoard(pic1HardData);
+    setBoardSolution(pic1HardSolution);
   }, []);
+
+  console.log({ board });
 
   return (
     <div>
@@ -41,22 +37,26 @@ export function HardBoardPic1(props) {
         }}
       ></div>
       <div className="boardHard">
-        {pic1HardData.map((pic, index) => (
-          <div className="PicCellHard" key={pic}>
+        {board.map((pic, index) => (
+          <div className="PicCellHard" key={index}>
             <img
               className="imgStyleHard"
               onClick={() => {
-                choice1 ? null : setChoice1(index);
-                choice2 ? null : setChoice2(index);
+                if (choice1 === null) {
+                  setChoice1(index);
+                } else if (choice2 === null) {
+                  setChoice2(index);
+                }
               }}
               src={pic}
-            ></img>
+            />
           </div>
         ))}
       </div>
     </div>
   );
 }
+
 export function HardBoardPic2(props) {
   const choice1 = props.choice1;
   const setChoice1 = props.setChoice1;
@@ -64,18 +64,14 @@ export function HardBoardPic2(props) {
   const setChoice2 = props.setChoice2;
   const board = props.board;
   const setBoard = props.setBoard;
-  const done = props.done;
-  const setDone = props.setDone;
-
-  useEffect(() => {
-    if (pic2HardData.every(() => pic2HardSolution === pic2HardData))
-      setDone(true);
-    // compare with solution with .every()
-  }, [board]);
+  const setBoardSolution = props.setBoardSolution;
 
   useEffect(() => {
     setBoard(pic2HardData);
+    setBoardSolution(pic2HardSolution);
   }, []);
+
+  console.log({ board });
 
   return (
     <div>
@@ -91,8 +87,11 @@ export function HardBoardPic2(props) {
             <img
               className="imgStyleHard"
               onClick={() => {
-                choice1 ? null : setChoice1(index);
-                choice2 ? null : setChoice2(index);
+                if (choice1 === null) {
+                  setChoice1(index);
+                } else if (choice2 === null) {
+                  setChoice2(index);
+                }
               }}
               src={pic}
             ></img>
@@ -102,6 +101,7 @@ export function HardBoardPic2(props) {
     </div>
   );
 }
+
 export function HardBoardPic3(props) {
   const choice1 = props.choice1;
   const setChoice1 = props.setChoice1;
@@ -109,18 +109,14 @@ export function HardBoardPic3(props) {
   const setChoice2 = props.setChoice2;
   const board = props.board;
   const setBoard = props.setBoard;
-  const done = props.done;
-  const setDone = props.setDone;
-
-  useEffect(() => {
-    if (pic3HardData.every(() => pic3HardSolution === pic3HardData))
-      setDone(true);
-    // compare with solution with .every()
-  }, [board]);
+  const setBoardSolution = props.setBoardSolution;
 
   useEffect(() => {
     setBoard(pic3HardData);
+    setBoardSolution(pic3HardSolution);
   }, []);
+
+  console.log({ board });
 
   return (
     <div>
@@ -136,8 +132,11 @@ export function HardBoardPic3(props) {
             <img
               className="imgStyleHard"
               onClick={() => {
-                choice1 ? null : setChoice1(index);
-                choice2 ? null : setChoice2(index);
+                if (choice1 === null) {
+                  setChoice1(index);
+                } else if (choice2 === null) {
+                  setChoice2(index);
+                }
               }}
               src={pic}
             ></img>
@@ -147,3 +146,4 @@ export function HardBoardPic3(props) {
     </div>
   );
 }
+export default { HardBoardPic1, HardBoardPic2, HardBoardPic3 };
