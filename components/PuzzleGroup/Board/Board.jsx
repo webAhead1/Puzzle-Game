@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "./BoardStyle.css";
+
 import {
   EasyBoardPic1,
   EasyBoardPic2,
@@ -21,17 +22,23 @@ export default function Board(props) {
   const [choice1, setChoice1] = React.useState(null);
   const [choice2, setChoice2] = React.useState(null);
   const [board, setBoard] = React.useState([]);
+  const [done, setDone] = React.useState(false);
+  useEffect(()=> {
+    return <div className="done">You win the game</div>
+  },[done])
+
 
   useEffect(() => {
     if (choice1 !== null && choice2 !== null) {
+      const temp = choice1;
+      setBoard(choice1) = board(choice2);
+      setBoard(choice2) = board(temp);      
       // board[choice1] = board[choice2]
       // setBoard
     }
   }, [choice1, choice2]);
 
-  useEffect(() => {
-    // compare with solution with .every()
-  }, [board]);
+  
 
   const boardProps = {
     choice1,
@@ -40,26 +47,28 @@ export default function Board(props) {
     setChoice2,
     board,
     setBoard,
+    done,
+    setDone,
   };
 
   if (props.level == 3 && props.pic1) {
     return <EasyBoardPic1 {...boardProps} />;
   } else if (props.level == 3 && props.pic2) {
-    return <EasyBoardPic2 />;
+    return <EasyBoardPic2 {...boardProps} />;
   } else if (props.level == 3 && props.pic3) {
-    return <EasyBoardPic3 />;
+    return <EasyBoardPic3 {...boardProps} />;
   } else if (props.level == 4 && props.pic1) {
-    return <MiddleBoardPic1 />;
+    return <MiddleBoardPic1 {...boardProps} />;
   } else if (props.level == 4 && props.pic2) {
-    return <MiddleBoardPic2 />;
+    return <MiddleBoardPic2 {...boardProps} />;
   } else if (props.level == 4 && props.pic3) {
-    return <MiddleBoardPic3 />;
+    return <MiddleBoardPic3 {...boardProps} />;
   } else if (props.level == 5 && props.pic1) {
-    return <HardBoardPic1 />;
+    return <HardBoardPic1 {...boardProps} />;
   } else if (props.level == 5 && props.pic2) {
-    return <HardBoardPic2 />;
+    return <HardBoardPic2 {...boardProps} />;
   } else if (props.level == 5 && props.pic3) {
-    return <HardBoardPic3 />;
+    return <HardBoardPic3 {...boardProps} />;
   } else {
     return <EmptyBoard />;
   }
