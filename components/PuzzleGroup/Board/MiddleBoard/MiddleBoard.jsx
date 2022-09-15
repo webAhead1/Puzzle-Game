@@ -13,11 +13,6 @@ import {
 } from "../Data/MiddleData/MiddleLevelData";
 
 export function MiddleBoardPic1(props) {
-<<<<<<< HEAD
-  useEffect(() => {
-    props.setBoard(pic2MiddleData);
-  }, []);
-=======
   const choice1 = props.choice1;
   const setChoice1 = props.setChoice1;
   const choice2 = props.choice2;
@@ -36,7 +31,6 @@ export function MiddleBoardPic1(props) {
     props.setBoard(pic1MiddleData);
   }, []);
 
->>>>>>> 8842271272c43888f74c6dddf32df981c76e010c
   return (
     <div>
       <div
@@ -63,11 +57,6 @@ export function MiddleBoardPic1(props) {
   );
 }
 export function MiddleBoardPic2(props) {
-<<<<<<< HEAD
-  useEffect(() => {
-    props.setBoard(pic3MiddleData);
-  }, []);
-=======
   const choice1 = props.choice1;
   const setChoice1 = props.setChoice1;
   const choice2 = props.choice2;
@@ -86,7 +75,6 @@ export function MiddleBoardPic2(props) {
     props.setBoard(pic2MiddleData);
   }, []);
 
->>>>>>> 8842271272c43888f74c6dddf32df981c76e010c
   return (
     <div>
       <div
@@ -113,11 +101,6 @@ export function MiddleBoardPic2(props) {
   );
 }
 export function MiddleBoardPic3(props) {
-<<<<<<< HEAD
-  useEffect(() => {
-    props.setBoard(pic1MiddleData);
-  }, []);
-=======
   const choice1 = props.choice1;
   const setChoice1 = props.setChoice1;
   const choice2 = props.choice2;
@@ -136,7 +119,6 @@ export function MiddleBoardPic3(props) {
     props.setBoard(pic3MiddleData);
   }, []);
 
->>>>>>> 8842271272c43888f74c6dddf32df981c76e010c
   return (
     <div>
       <div

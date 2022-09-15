@@ -57,11 +57,6 @@ export function EasyBoardPic1(props) {
   );
 }
 export function EasyBoardPic2(props) {
-<<<<<<< HEAD
-  useEffect(() => {
-    props.setBoard(pic2EasyData);
-  }, []);
-=======
   const choice1 = props.choice1;
   const setChoice1 = props.setChoice1;
   const choice2 = props.choice2;
@@ -80,7 +75,6 @@ export function EasyBoardPic2(props) {
     props.setBoard(pic2EasyData);
   }, []);
 
->>>>>>> 8842271272c43888f74c6dddf32df981c76e010c
   return (
     <div>
       <div
@@ -107,8 +101,6 @@ export function EasyBoardPic2(props) {
   );
 }
 export function EasyBoardPic3(props) {
-<<<<<<< HEAD
-=======
   const choice1 = props.choice1;
   const setChoice1 = props.setChoice1;
   const choice2 = props.choice2;
@@ -123,7 +115,6 @@ export function EasyBoardPic3(props) {
     // compare with solution with .every()
   }, [board]);
 
->>>>>>> 8842271272c43888f74c6dddf32df981c76e010c
   useEffect(() => {
     props.setBoard(pic3EasyData);
   }, []);
