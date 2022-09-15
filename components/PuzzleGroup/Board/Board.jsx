@@ -30,7 +30,6 @@ export default function Board(props) {
   useEffect(() => {
     if (choice1 !== null && choice2 !== null) {
       const temp1 = choice1;
-      const temp2 = choice2;
       // setBoard(choice1) = board[choice2];
       // setBoard(choice2) = board[temp1];
       board[choice2] = setBoard(choice1);
