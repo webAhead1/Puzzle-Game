@@ -26,7 +26,7 @@ export default function Board(props) {
   useEffect(() => {
     <div className="done">You win the game</div>;
   }, [done]);
-
+  // hiiiiiiii
   useEffect(() => {
     if (choice1 !== null && choice2 !== null) {
       const temp1 = choice1;
