@@ -23,28 +23,16 @@ export default function Board(props) {
   const [choice2, setChoice2] = React.useState(null);
   const [board, setBoard] = React.useState([]);
   const [done, setDone] = React.useState(false);
-<<<<<<< HEAD
 
-  
-  useEffect(()=> {
-    return <div className="done">You win the game</div>
-  },[done])
-
-=======
   useEffect(() => {
-    <div className="done">You win the game</div>;
+    return <div className="done">You win the game</div>;
   }, [done]);
->>>>>>> 2ce739d73ad4e99874e346a0d83b501cd33693b3
 
   useEffect(() => {
     if (choice1 !== null && choice2 !== null) {
-      const temp1 = choice1;
-      const temp2 = choice2;
-      // setBoard(choice1) = board[choice2];
-      // setBoard(choice2) = board[temp1];
-      board[choice2] = setBoard(choice1);
-      board[temp1] = setBoard(choice2);
-
+      const temp = choice1;
+      setBoard[choice1] = board[choice2];
+      setBoard[choice2] = board[temp];
       // board[choice1] = board[choice2]
       // setBoard
     }
