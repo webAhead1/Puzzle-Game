@@ -10,7 +10,7 @@ import {
   pic1EasySolution,
   pic2EasySolution,
   pic3EasySolution,
-} from "../Data/EasyData/EasyLevelData";
+} from "../../Data/EasyData/EasyLevelData";
 
 export function EasyBoardPic1(props) {
   const choice1 = props.choice1;
@@ -23,12 +23,13 @@ export function EasyBoardPic1(props) {
   const setDone = props.setDone;
 
   useEffect(() => {
-    if (board.every(pic1EasySolution)) setDone(true);
+    if (pic1EasyData.every(() => pic1EasySolution === pic1EasyData))
+      setDone(true);
     // compare with solution with .every()
   }, [board]);
 
   useEffect(() => {
-    props.setBoard(pic1EasyData);
+    setBoard(pic1EasyData);
   }, []);
 
   return (
@@ -67,12 +68,13 @@ export function EasyBoardPic2(props) {
   const setDone = props.setDone;
 
   useEffect(() => {
-    if (board.every(pic2EasySolution)) setDone(true);
+    if (pic2EasyData.every(() => pic2EasySolution === pic2EasyData))
+      setDone(true);
     // compare with solution with .every()
   }, [board]);
 
   useEffect(() => {
-    props.setBoard(pic2EasyData);
+    setBoard(pic2EasyData);
   }, []);
 
   return (
@@ -111,12 +113,13 @@ export function EasyBoardPic3(props) {
   const setDone = props.setDone;
 
   useEffect(() => {
-    if (board.every(pic3EasySolution)) setDone(true);
+    if (pic3EasyData.every(() => pic3EasySolution === pic3EasyData))
+      setDone(true);
     // compare with solution with .every()
   }, [board]);
 
   useEffect(() => {
-    props.setBoard(pic3EasyData);
+    setBoard(pic3EasyData);
   }, []);
 
   return (
@@ -144,3 +147,4 @@ export function EasyBoardPic3(props) {
     </div>
   );
 }
+export default { EasyBoardPic1, EasyBoardPic2, EasyBoardPic3 };

@@ -10,7 +10,7 @@ import {
   pic1MiddleSolution,
   pic2MiddleSolution,
   pic3MiddleSolution,
-} from "../Data/MiddleData/MiddleLevelData";
+} from "../../Data/MiddleData/MiddleLevelData";
 
 export function MiddleBoardPic1(props) {
   const choice1 = props.choice1;
@@ -23,12 +23,13 @@ export function MiddleBoardPic1(props) {
   const setDone = props.setDone;
 
   useEffect(() => {
-    if (board.every(pic1MiddleSolution)) setDone(true);
+    if (pic1MiddleData.every(() => pic1MiddleSolution === pic1MiddleData))
+      setDone(true);
     // compare with solution with .every()
   }, [board]);
 
   useEffect(() => {
-    props.setBoard(pic1MiddleData);
+    setBoard(pic1MiddleData);
   }, []);
 
   return (
@@ -67,12 +68,13 @@ export function MiddleBoardPic2(props) {
   const setDone = props.setDone;
 
   useEffect(() => {
-    if (board.every(pic2MiddleSolution)) setDone(true);
+    if (pic2MiddleData.every(() => pic2MiddleSolution === pic2MiddleData))
+      setDone(true);
     // compare with solution with .every()
   }, [board]);
 
   useEffect(() => {
-    props.setBoard(pic2MiddleData);
+    setBoard(pic2MiddleData);
   }, []);
 
   return (
@@ -111,12 +113,13 @@ export function MiddleBoardPic3(props) {
   const setDone = props.setDone;
 
   useEffect(() => {
-    if (board.every(pic3MiddleSolution)) setDone(true);
+    if (pic3MiddleData.every(() => pic3MiddleSolution === pic3MiddleData))
+      setDone(true);
     // compare with solution with .every()
   }, [board]);
 
   useEffect(() => {
-    props.setBoard(pic3MiddleData);
+    setBoard(pic3MiddleData);
   }, []);
 
   return (
