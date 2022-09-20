@@ -8,10 +8,6 @@ export default function ChooseLevelGroup(props) {
   const hard = props.hard;
   const setHard = props.setHard;
 
-  // const [isEasyActive, setIsEastActive] = React.useState(false);
-  // const [isMiddleActive, setIsMiddletActive] = React.useState(false);
-  // const [isHardActive, setIsHardActive] = React.useState(false);
-
   const handleEasyClick = () => {
     setEasy(!easy);
     setMiddle(false);
