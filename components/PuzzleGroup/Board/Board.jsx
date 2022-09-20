@@ -11,6 +11,7 @@ import {
   MiddleBoardPic2,
   MiddleBoardPic3,
 } from "./MiddleBoard/MiddleBoard";
+
 import {
   HardBoardPic1,
   HardBoardPic2,
